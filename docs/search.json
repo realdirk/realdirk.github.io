@@ -4,7 +4,7 @@
     "href": "research/drone swarming/index.html",
     "title": "Visualizing Physical Phenomena Using Swarming Nano Quadrotors",
     "section": "",
-    "text": "The goal of this project is to use drones as analogies and metaphors of physical systems. For instance, a drone can mimic the motion of a mass-spring system. While the drone is hovering in mid-air the user pulls it down to provide an initial displacement, and the drone starts oscillating with a frequency determined by the physical parameters of the mass-spring system. Similarly, multiple drones can be used to visualize standing and moving waves.\nJustin Rooney started this project as part of his M.Eng. thesis at the Cooper, PDF.\n\nThis project is now continued as a VIP course. Students Aymane Saissi, Amelia Chan, and Jason Chen, implemented a swarming drones demo that visualizes a tornado motion."
+    "text": "The goal of this project is to use drones as analogies and metaphors of physical systems. For instance, a drone can mimic the motion of a mass-spring system. While the drone is hovering in mid-air the user pulls it down to provide an initial displacement, and the drone starts oscillating with a frequency determined by the physical parameters of the mass-spring system. Similarly, multiple drones can be used to visualize standing and moving waves.\nJustin Rooney started this project as part of his M.Eng. thesis, PDF.\n\nThis project is now continued as a VIP course. Students Aymane Saissi, Amelia Chan, and Jason Chen, implemented a swarming drones demo that visualizes a tornado motion."
   },
   {
     "objectID": "research/plasma blasting/index.html",
