@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "research/drone swarming/index.html",
+    "href": "research/drone swarming/index.html",
+    "title": "Visualizing Physical Phenomena Using Swarming Nano Quadrotors",
+    "section": "",
+    "text": "The goal of this project is to use drones as analogies and metaphors of physical systems. For instance, a drone can mimic the motion of a mass-spring system. While the drone is hovering in mid-air the user pulls it down to provide an initial displacement, and the drone starts oscillating with a frequency determined by the physical parameters of the mass-spring system. Similarly, multiple drones can be used to visualize standing and moving waves.\nJustin Rooney started this project as part of his M.Eng. thesis at the Cooper, PDF.\n\nThis project is now continued as a VIP course. Students Aymane Saissi, Amelia Chan, and Jason Chen, implemented a swarming drones demo that visualizes a tornado motion."
+  },
+  {
+    "objectID": "research/plasma blasting/index.html",
+    "href": "research/plasma blasting/index.html",
+    "title": "Plasma blasting",
+    "section": "",
+    "text": "See the Cooper news item: click link.\nThis project ended in May 2020. For a related write-up see Dachi Tan’s M.Eng. thesis."
+  },
+  {
+    "objectID": "research/ground robots/index.html",
+    "href": "research/ground robots/index.html",
+    "title": "Ground robots",
+    "section": "",
+    "text": "This research project seeks to employ ROS2, the iRobot Create3 robot, and the Vicon Motion Capture system available in the lab for either navigation or modeling of physical systems. The navigation aspect involves constructing a city-like environment within the Vicon system and enabling the Create3 robot to navigate through it, avoiding obstacles and reaching a specified destination. In the physical systems modeling aspect, the goal is to input mathematical equations representing systems and have the Create3 robot follow the corresponding paths. David Guo, Will Wu, Eric Xu, and David Yang are currently working as part of a VIP course to integrate various functions demonstrated in the video into a cohesive and operational system."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "teaching",
+    "section": "",
+    "text": "ESC251 System Dynamics\n\n\n\n\n\nAn introductory course to the mathematical modeling of systems. Topics include mechanical elements and systems, electric circuits and analogous systems, fluid elements and systems, analysis of systems using transfer functions, state space equations, analog simulation and digital simulation. Also covered are block diagrams, Laplace transforms, and linear system analysis. Computer projects will be assigned that will use MATLAB software.\n\n\n\n\n\n\nMar 20, 2023\n\n\nDirk M Luchtenburg\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "research",
+    "section": "",
+    "text": "Visualizing Physical Phenomena Using Swarming Nano Quadrotors\n\n\n\n\n\nThe goal of this project is to use drones as analogies and metaphors of physical systems.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGround robots\n\n\n\n\n\nThe aim of this research endeavor is to utilize ROS2 in conjunction with iRobot’s Create3 robot and the Vicon system available in the lab, either for the purpose of navigation or for the modeling of physical systems.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPlasma blasting\n\n\n\n\n\nThe aim of this research is to investigate commercial applications for a plasma blasting system, offering an innovative alternative to current rock and concrete fracturing methods.\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/song2017ieee/index.html",
+    "href": "publications/song2017ieee/index.html",
+    "title": "Using compliant leg design for impact attenuation of airdrop landings of quadruped robots",
+    "section": "",
+    "text": "PDF\n\n\n\nCitationBibTeX citation:@misc{song;dirkluchtenburg2017,\n  author = {Yeeho Song; Dirk Luchtenburg},\n  title = {Using Compliant Leg Design for Impact Attenuation of Airdrop\n    Landings of Quadruped Robots},\n  date = {2017-07-24},\n  url = {https://dluchten.github.io/publications/song2017ieee},\n  doi = {10.1109/ICRA.2017.7989427},\n  langid = {en},\n  abstract = {Most airdropped cargo use a combination of one or more\n    parachutes and an impact attenuation system to land safely. The\n    latter adds cost, weight and complexity. However, by using their\n    legs for impact attenuation, airdropped quadruped robots may avoid\n    the need for such a system. In this paper, various leg\n    configurations for attenuating impact of airborne landings were\n    studied and tested. Using simple lumped element models for\n    simulation and analysis, a quadruped robot with a three-segment leg\n    was designed and built. This model was validated with experiments\n    with a small scale 20 cm-tall test robot. During the experiments,\n    the test robot experienced 7.7 \\$\\textbackslash times\\$ 10\n    m/s\\$\\^{}2\\$ or 7.9 g-acceleration when dropped from height of 37.85\n    cm. This result is much better than the result of 1.4\n    \\$\\textbackslash times\\$ 10\\$\\^{}2\\$ m/s\\$\\^{}2\\$ or\n    14.7g-acceleration when dropped at 10\\% of the original height with\n    the same robot equipped with rigid legs. Such compliant leg design\n    could be potentially used for impact attenuation of airdrop landings\n    of robots five times larger.}\n}\nFor attribution, please cite this work as:\nYeeho Song; Dirk Luchtenburg. 2017. “Using Compliant Leg Design\nfor Impact Attenuation of Airdrop Landings of Quadruped Robots.”\nIEEE ICRA 2017. https://doi.org/10.1109/ICRA.2017.7989427."
+  },
+  {
+    "objectID": "publications/shekhtman2019asme/index.html",
+    "href": "publications/shekhtman2019asme/index.html",
+    "title": "Seven Degrees-of-Freedom Model for the Roll Stabilization of Unstable Ships",
+    "section": "",
+    "text": "PDF\n\n\n\n\nCitationBibTeX citation:@article{shekhtman,dirkm.luchtenburg2019,\n  author = {David Shekhtman, Dirk M. Luchtenburg},\n  title = {Seven {Degrees-of-Freedom} {Model} for the {Roll}\n    {Stabilization} of {Unstable} {Ships}},\n  journal = {ASME JDSMC 2019},\n  date = {2019-03-25},\n  url = {https://dluchten.github.io/publications/shekhtman2019asme},\n  doi = {10.1115/1.4042950},\n  langid = {en},\n  abstract = {As demonstrated by the 2014 MV Sewol incident, the\n    prevention of top heavy ship capsize is necessary to protect life\n    and property aboard a ship. The goal of this paper is to prevent the\n    capsize of ships, which lack a restoring torque about the roll axis,\n    by using a feedback-controlled pendulum actuator. A seven\n    degrees-of-freedom (7DOF) model is developed for a ship equipped\n    with a pendulum actuator. The model is used to conduct parameter\n    analyses on the pendulum length, pendulum mast height, pendulum\n    mass, ship center of mass (COM) height, and the pendulum\n    controller’s proportional feedback gain. The results of these\n    analyses are depicted via time responses and phase plots. Key points\n    for designing a pendulum actuator summarize simulation results,\n    stating that the pendulum mass should be 3–7\\% of the total ship\n    mass, and the pendulum moment of inertia should be 0.5–1.0 times the\n    roll moment of inertia of the ship.}\n}\nFor attribution, please cite this work as:\nDavid Shekhtman, Dirk M. Luchtenburg. 2019. “Seven\nDegrees-of-Freedom Model for the Roll Stabilization of Unstable\nShips.” ASME JDSMC 2019, March. https://doi.org/10.1115/1.4042950."
+  },
+  {
+    "objectID": "publications/saure2019asme/index.html",
+    "href": "publications/saure2019asme/index.html",
+    "title": "Modelling the Motion of a 2-Arm ROV",
+    "section": "",
+    "text": "PDF\n\n\n\nCitationBibTeX citation:@misc{r.saure,sondreh.iversen,andreasb.snekkevik,rosegebhardt,zhiyangchen,christophermignano,dirkluchtenburg,thomasj.impelluso2020,\n  author = {Marius R. Saure, Sondre H. Iversen, Andreas B. Snekkevik,\n    Rose Gebhardt, Zhiyang Chen, Christopher Mignano, Dirk Luchtenburg,\n    Thomas J. Impelluso},\n  title = {Modelling the {Motion} of a {2-Arm} {ROV}},\n  date = {2020-01-21},\n  url = {https://dluchten.github.io/publications/saure2019asme},\n  doi = {10.1115/IMECE2019-10282},\n  langid = {en},\n  abstract = {Norway conducts operations on a variety of structures in\n    the North Sea; e.g. oilrigs, monopole windmills, subsea trees. These\n    structures often require subsea installation, observation, and\n    maintenance. A remotely operated vehicle (ROV) can assist in these\n    operations. Automation of intended motion is the desired goal. This\n    paper researches the motion of an ROV induced by the motion of the\n    robotic manipulators, motor torques, and added mass of fluid. This\n    project builds upon a previous project that had one robotic arm;\n    this time, there are two, but the method is unchanged. Furthermore,\n    this work explores both the patterns in addressing such challenges,\n    and an improved integration scheme. This research uses the Moving\n    Frame Method (MFM) to carry out this project. In fact, this paper\n    demonstrates the ease with which the MFM is extensible. Notable is\n    that this work represents an international collaboration between an\n    engineering school in Norway and one in the US. This work invites\n    further research into improved numerical methods, solid/fluid\n    interaction and the design of Autonomous Underwater Vehicles (AUV).\n    AUVs beckon an era of Artificial Intelligence when machines think,\n    communicate and learn. Rapidly deployable software implementations\n    will be essential to this task.}\n}\nFor attribution, please cite this work as:\nMarius R. Saure, Sondre H. Iversen, Andreas B. Snekkevik, Rose Gebhardt,\nZhiyang Chen, Christopher Mignano, Dirk Luchtenburg, Thomas J.\nImpelluso. 2020. “Modelling the Motion of a 2-Arm ROV.”\nASME IMECE 2019. https://doi.org/10.1115/IMECE2019-10282."
+  },
+  {
+    "objectID": "publications/jin2019ieee/index.html",
+    "href": "publications/jin2019ieee/index.html",
+    "title": "A Multisensor Data Fusion Approach for Simultaneous Localization and Mapping",
+    "section": "",
+    "text": "PDF\n\n\n\nCitationBibTeX citation:@misc{jin;yifeishao;minjoonso;carlsable;neveenshlayan;dirkmartinluchtenburg2019,\n  author = {Zhekai Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen\n    Shlayan; Dirk Martin Luchtenburg},\n  title = {A {Multisensor} {Data} {Fusion} {Approach} for {Simultaneous}\n    {Localization} and {Mapping}},\n  date = {2019-11-28},\n  url = {https://dluchten.github.io/publications/jin2019ieee},\n  doi = {10.1109/ITSC.2019.8916930},\n  langid = {en},\n  abstract = {Simultaneous localization and mapping (SLAM) has been an\n    emerging research topic in the fields of robotics, autonomous\n    driving, and unmanned aerial vehicles over the past thirty years.\n    State of the art SLAM research is often inaccessible for\n    undergraduate student researchers due to expensive hardware and\n    difficult software setup. We present a cost-friendly vehicle\n    research platform and a robust implementation of SLAM. Our SLAM\n    algorithm fuses visual stereo image and 2D light detection and\n    ranging (Lidar) data and uses loop closure for accurate odometry\n    estimation. Our algorithm is benchmarked against other popular SLAM\n    algorithms using the publicly available KITTI dataset and shown to\n    be very accurate.}\n}\nFor attribution, please cite this work as:\nZhekai Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen Shlayan; Dirk\nMartin Luchtenburg. 2019. “A Multisensor Data Fusion Approach for\nSimultaneous Localization and Mapping.” IEEE ITSC 2019.\nhttps://doi.org/10.1109/ITSC.2019.8916930."
+  },
+  {
+    "objectID": "publications/luchtenburg2021asme/index.html",
+    "href": "publications/luchtenburg2021asme/index.html",
+    "title": "A Projection-Based Derivation of the Equations of Motion for the Moving Frame Method for Multi-Body Dynamics",
+    "section": "",
+    "text": "PDF\n\n\n\nCitationBibTeX citation:@misc{m.luchtenburg,milishah,thomasj.impelluso,thorsteinravnebergrykkje2022,\n  author = {Dirk M. Luchtenburg, Mili Shah, Thomas J. Impelluso,\n    Thorstein Ravneberg Rykkje},\n  title = {A {Projection-Based} {Derivation} of the {Equations} of\n    {Motion} for the {Moving} {Frame} {Method} for {Multi-Body}\n    {Dynamics}},\n  date = {2022-01-25},\n  url = {https://dluchten.github.io/publications/luchtenburg2021asme},\n  doi = {10.1115/IMECE2021-72324},\n  langid = {en},\n  abstract = {The moving frame method for multi-body dynamics,\n    established by Murakami in {[}10{]} and {[}11{]}, embodies a\n    consistent notation and mathematical framework that simplifies the\n    derivation of equations of motion of complex systems. The derivation\n    of the equations of motion follows Hamilton’s principle and requires\n    the calculation of virtual angular velocities and the corresponding\n    virtual rotational displacements. The goal of this paper is to\n    present a projection-based approach, which only requires knowledge\n    of Euler’s first and second law, that results in the same equation\n    of motion. The constraints need not satisfy d’Alembert’s principle\n    and the projection is based on a generalization of Gauss’ principle\n    of least constraint {[}14{]}. One advantage of the proposed method\n    is that it avoids variational principles and therefore is more\n    accessible to undergraduate students. In addition, the final form of\n    the equation of motion is more easily understood. We motivate our\n    approach using the example of the simple pendulum, derive the main\n    result, and apply the methodology for derivation of the equations of\n    motion for a modified Chaplygin sleigh and a rotary pendulum.}\n}\nFor attribution, please cite this work as:\nDirk M. Luchtenburg, Mili Shah, Thomas J. Impelluso, Thorstein Ravneberg\nRykkje. 2022. “A Projection-Based Derivation of the Equations of\nMotion for the Moving Frame Method for Multi-Body Dynamics.”\nASME IMECE 2021. https://doi.org/10.1115/IMECE2021-72324."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dynamics and Control Lab",
+    "section": "",
+    "text": "The Dynamics and Control Lab at The Cooper Union is a place where undergraduate students develop model-based controllers for smart vehicles, such as quadcopters and ground robots."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "selected publications",
+    "section": "",
+    "text": "Google scholar for complete list\n\n\n\n\n\n\n\n\n  \n\n\n\n\nA Projection-Based Derivation of the Equations of Motion for the Moving Frame Method for Multi-Body Dynamics\n\n\n\n\n\nThis paper presents a projection-based approach for deriving the equations of motion of connected rigid bodies based on the principle of least-constraint by Gauss.\n\n\n\n\n\n\nJan 25, 2022\n\n\nDirk M. Luchtenburg, Mili Shah, Thomas J. Impelluso, Thorstein Ravneberg Rykkje\n\n\n\n\n\n\n  \n\n\n\n\nModelling the Motion of a 2-Arm ROV\n\n\n\n\n\nThis paper researches the motion of an ROV induced by the motion of the robotic manipulators, motor torques, and added mass of fluid.\n\n\n\n\n\n\nJan 21, 2020\n\n\nMarius R. Saure, Sondre H. Iversen, Andreas B. Snekkevik, Rose Gebhardt, Zhiyang Chen, Christopher Mignano, Dirk Luchtenburg, Thomas J. Impelluso\n\n\n\n\n\n\n  \n\n\n\n\nA Multisensor Data Fusion Approach for Simultaneous Localization and Mapping\n\n\n\n\n\nThis paper presents a cost-friendly vehicle research platform and a robust implementation of SLAM.\n\n\n\n\n\n\nNov 28, 2019\n\n\nZhekai Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen Shlayan; Dirk Martin Luchtenburg\n\n\n\n\n\n\n  \n\n\n\n\nSeven Degrees-of-Freedom Model for the Roll Stabilization of Unstable Ships\n\n\n\n\n\nThis paper shows how a ship with unstable roll can be stabilized with a pendulum.\n\n\n\n\n\n\nMar 25, 2019\n\n\nDavid Shekhtman, Dirk M. Luchtenburg\n\n\n\n\n\n\n  \n\n\n\n\nUsing compliant leg design for impact attenuation of airdrop landings of quadruped robots\n\n\n\n\n\nThis paper shows how compliant legs can be used attentuate airdrop landings of quadruped robots.\n\n\n\n\n\n\nJul 24, 2017\n\n\nYeeho Song; Dirk Luchtenburg\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "people",
+    "section": "",
+    "text": "Dirk M. Luchtenburg\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMichael Giglia\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/2023ESC251/index.html",
+    "href": "teaching/2023ESC251/index.html",
+    "title": "ESC251 System Dynamics",
+    "section": "",
+    "text": "The TA for this class, Benjamin Aziel, maintains a nice set of notes, PDF"
+  },
+  {
+    "objectID": "people/giglia/index.html",
+    "href": "people/giglia/index.html",
+    "title": "Michael Giglia",
+    "section": "",
+    "text": "Michael Giglia is Mechanical/Electrical Engineering Technician at the Cooper Union."
+  },
+  {
+    "objectID": "people/luchtenburg/index.html",
+    "href": "people/luchtenburg/index.html",
+    "title": "Dirk M. Luchtenburg",
+    "section": "",
+    "text": "Dirk M. Luchtenburg is associate professor in the Department of Mechanical Engineering at the Cooper Union. His research interests include dynamics and control. He leads the Dynamics and Control Lab at Cooper Union, where undergraduate students develop model-based controllers for smart vehicles, such as quadcopters and ground robots.\nLuchtenburg received his MS degree in Aerospace Engineering from the Delft University of Technology (TU Delft) located in Delft, Netherlands. Subsequently, he received his PhD degree in Fluid Mechanics from the Berlin Institute of Technology (TU Berlin) where he studied under Bernd Noack and Rudibert King. After spending three years as a postdoc and lecturer at Princeton University under Clancy Rowley, he joined the Cooper Union as a research fellow in 2013, followed by a visiting assistant professorship. He was appointed full time faculty member in Mechanical Engineering in 2015. His interests span the fields of fluid mechanics, dynamics, and control.\nHe has a broad range of specializations including fluid flows, dynamics, and feedback control. He has applied these interests to a range of applications including active flow control of fluids, nonlinear aerodynamic stall models, model reduction and idenfication of fluid flows, and control of smart vehicles."
+  }
+]
