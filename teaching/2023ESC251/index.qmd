@@ -1,0 +1,10 @@
+---
+title: "ESC251 System Dynamics"
+image: "coffee_mug.png"
+description: | 
+  An introductory course to the mathematical modeling of systems. Topics include mechanical elements and systems, electric circuits and analogous systems, fluid elements and systems, analysis of systems using transfer functions, state space equations, analog simulation and digital simulation. Also covered are block diagrams, Laplace transforms, and linear system analysis. Computer projects will be assigned that will use MATLAB software.
+date: 3/20/2023
+author:
+  - name: Dirk M Luchtenburg
+---
+The TA for this class, Benjamin Aziel, maintains a nice set of notes, [PDF](https://github.com/destrospooder/esc251_systems/blob/main/..systems.pdf)

@@ -1,0 +1,21 @@
+---
+title: "A Projection-Based Derivation of the Equations of Motion for the Moving Frame Method for Multi-Body Dynamics"
+image: "sleigh.png"
+description: | 
+  This paper presents a projection-based approach for deriving the equations of motion of connected rigid bodies based on the principle of least-constraint by Gauss.
+abstract: | 
+  The moving frame method for multi-body dynamics, established by Murakami in [10] and [11], embodies a consistent notation and mathematical framework that simplifies the derivation of equations of motion of complex systems. The derivation of the equations of motion follows Hamilton’s principle and requires the calculation of virtual angular velocities and the corresponding virtual rotational displacements. The goal of this paper is to present a projection-based approach, which only requires knowledge of Euler’s first and second law, that results in the same equation of motion. The constraints need not satisfy d’Alembert’s principle and the projection is based on a generalization of Gauss’ principle of least constraint [14]. One advantage of the proposed method is that it avoids variational principles and therefore is more accessible to undergraduate students. In addition, the final form of the equation of motion is more easily understood. We motivate our approach using the example of the simple pendulum, derive the main result, and apply the methodology for derivation of the equations of motion for a modified Chaplygin sleigh and a rotary pendulum.
+date: 1/25/2022
+author:
+  - name: Dirk M. Luchtenburg,  Mili Shah,  Thomas J. Impelluso,  Thorstein Ravneberg Rykkje
+    url: https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2021/85659/V009T09A005/1132989
+#    affiliation: Spacely Sprockets
+#    affiliation-url: https://example.com/spacelysprokets
+citation:
+  type: article
+  container-title: "ASME IMECE 2021"
+  doi: "10.1115/IMECE2021-72324"
+#  url: https://example.com/summarizing-output
+# bibliography: biblio.bib
+---
+[PDF](luchtenburg2021asme.pdf)

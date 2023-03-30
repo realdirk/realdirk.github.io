@@ -1,0 +1,24 @@
+---
+title: "Seven Degrees-of-Freedom Model for the Roll Stabilization of Unstable Ships"
+image: "Shekhtman_Image.png"
+description: | 
+  This paper shows how a ship with unstable roll can be stabilized with a pendulum.
+abstract: | 
+  As demonstrated by the 2014 MV Sewol incident, the prevention of top heavy ship capsize is necessary to protect life and property aboard a ship. The goal of this paper is to prevent the capsize of ships, which lack a restoring torque about the roll axis, by using a feedback-controlled pendulum actuator. A seven degrees-of-freedom (7DOF) model is developed for a ship equipped with a pendulum actuator. The model is used to conduct parameter analyses on the pendulum length, pendulum mast height, pendulum mass, ship center of mass (COM) height, and the pendulum controller's proportional feedback gain. The results of these analyses are depicted via time responses and phase plots. Key points for designing a pendulum actuator summarize simulation results, stating that the pendulum mass should be 3–7% of the total ship mass, and the pendulum moment of inertia should be 0.5–1.0 times the roll moment of inertia of the ship.
+date: 3/25/2019
+author:
+  - name: David Shekhtman,  Dirk M. Luchtenburg
+    url: https://asmedigitalcollection.asme.org/dynamicsystems/article-abstract/141/8/081011/726578/Seven-Degrees-of-Freedom-Model-for-the-Roll
+#    affiliation: Spacely Sprockets
+#    affiliation-url: https://example.com/spacelysprokets
+citation:
+  type: article-journal
+  container-title: "ASME JDSMC 2019"
+  doi: "10.1115/1.4042950"
+#  url: https://example.com/summarizing-output
+# bibliography: biblio.bib
+---
+[PDF](.)
+{{< video https://youtu.be/bIo3T17o_ss >}}
+
+

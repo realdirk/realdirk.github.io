@@ -1,0 +1,21 @@
+---
+title: "A Multisensor Data Fusion Approach for Simultaneous Localization and Mapping"
+image: "car.png"
+description: | 
+  This paper presents a cost-friendly vehicle research platform and a robust implementation of SLAM.
+abstract: | 
+  Simultaneous localization and mapping (SLAM) has been an emerging research topic in the fields of robotics, autonomous driving, and unmanned aerial vehicles over the past thirty years. State of the art SLAM research is often inaccessible for undergraduate student researchers due to expensive hardware and difficult software setup. We present a cost-friendly vehicle research platform and a robust implementation of SLAM. Our SLAM algorithm fuses visual stereo image and 2D light detection and ranging (Lidar) data and uses loop closure for accurate odometry estimation. Our algorithm is benchmarked against other popular SLAM algorithms using the publicly available KITTI dataset and shown to be very accurate.
+date: 11/28/2019
+author:
+  - name: Zhekai Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen Shlayan; Dirk Martin Luchtenburg
+    url: https://ieeexplore.ieee.org/abstract/document/8916930
+#    affiliation: Spacely Sprockets
+#    affiliation-url: https://example.com/spacelysprokets
+citation:
+  type: article
+  container-title: "IEEE ITSC 2019"
+  doi: "10.1109/ITSC.2019.8916930"
+#  url: https://example.com/summarizing-output
+# bibliography: biblio.bib
+---
+[PDF](jin2019ieee.pdf)

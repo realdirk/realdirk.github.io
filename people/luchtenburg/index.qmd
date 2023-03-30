@@ -1,0 +1,15 @@
+---
+title: "Dirk M. Luchtenburg"
+image: "luchtenburg.jpg"
+author: ""
+order: 1
+---
+::: {.column-margin}
+![](luchtenburg.jpg)
+:::
+
+Dirk M. Luchtenburg is associate professor in the Department of Mechanical Engineering at the Cooper Union. His research interests include dynamics and control. He leads the Dynamics and Control Lab at Cooper Union, where undergraduate students develop model-based controllers for smart vehicles, such as quadcopters and ground robots.
+
+Luchtenburg received his MS degree in Aerospace Engineering from the [Delft University of Technology](https://www.tudelft.nl/en/) (TU Delft) located in Delft, Netherlands. Subsequently, he received his PhD degree in Fluid Mechanics from the [Berlin Institute of Technology](https://www.tu.berlin/en/) (TU Berlin) where he studied under [Bernd Noack](http://www.berndnoack.com) and Rudibert King. After spending three years as a postdoc and lecturer at [Princeton University](https://www.princeton.edu) under [Clancy Rowley](https://cwrowley.princeton.edu), he joined the Cooper Union as a research fellow in 2013, followed by a visiting assistant professorship. He was appointed full time faculty member in Mechanical Engineering in 2015. His interests span the fields of fluid mechanics, dynamics, and control.
+
+He has a broad range of specializations including fluid flows, dynamics, and feedback control. He has applied these interests to a range of applications including active flow control of fluids, nonlinear aerodynamic stall models, model reduction and idenfication of fluid flows, and control of smart vehicles.

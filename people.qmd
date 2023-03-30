@@ -1,0 +1,11 @@
+---
+title: "people"
+listing:
+  contents: people/**/index.qmd
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: article
+title-block-banner: false
+---

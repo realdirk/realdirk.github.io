@@ -1,0 +1,11 @@
+---
+order: 2
+title: "Ground robots"
+image: "irobot.png"
+description: | 
+  The aim of this research endeavor is to utilize ROS2 in conjunction with iRobot's Create3 robot and the Vicon system available in the lab, either for the purpose of navigation or for the modeling of physical systems. 
+---
+This research project seeks to employ ROS2, the iRobot Create3 robot, and the Vicon Motion Capture system available in the lab for either navigation or modeling of physical systems. The navigation aspect involves constructing a city-like environment within the Vicon system and enabling the Create3 robot to navigate through it, avoiding obstacles and reaching a specified destination. In the physical systems modeling aspect, the goal is to input mathematical equations representing systems and have the Create3 robot follow the corresponding paths. David Guo, Will Wu, Eric Xu, and David Yang are currently working as part of a [VIP course](https://cooper.edu/academics/vertically-integrated-projects) to integrate various functions demonstrated in the video into a cohesive and operational system.
+
+{{< video https://youtu.be/k9FSY0_s2Yo >}}
+

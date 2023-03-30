@@ -1,0 +1,16 @@
+---
+title: "selected publications"
+listing:
+  contents: publications/**/index.qmd
+  sort:
+    - "date desc"
+    - "title desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+[![](images/google-scholar.png){height=30}](https://scholar.google.com/citations?user=s7vf-rcAAAAJ&hl=en) [Google scholar](https://scholar.google.com/citations?user=s7vf-rcAAAAJ&hl=en)  for complete list
+

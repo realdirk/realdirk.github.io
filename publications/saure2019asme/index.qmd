@@ -1,0 +1,21 @@
+---
+title: "Modelling the Motion of a 2-Arm ROV"
+image: "rov.png"
+description: | 
+  This paper researches the motion of an ROV induced by the motion of the robotic manipulators, motor torques, and added mass of fluid.
+abstract: | 
+  Norway conducts operations on a variety of structures in the North Sea; e.g. oilrigs, monopole windmills, subsea trees. These structures often require subsea installation, observation, and maintenance. A remotely operated vehicle (ROV) can assist in these operations. Automation of intended motion is the desired goal. This paper researches the motion of an ROV induced by the motion of the robotic manipulators, motor torques, and added mass of fluid. This project builds upon a previous project that had one robotic arm; this time, there are two, but the method is unchanged. Furthermore, this work explores both the patterns in addressing such challenges, and an improved integration scheme. This research uses the Moving Frame Method (MFM) to carry out this project. In fact, this paper demonstrates the ease with which the MFM is extensible. Notable is that this work represents an international collaboration between an engineering school in Norway and one in the US. This work invites further research into improved numerical methods, solid/fluid interaction and the design of Autonomous Underwater Vehicles (AUV). AUVs beckon an era of Artificial Intelligence when machines think, communicate and learn. Rapidly deployable software implementations will be essential to this task.
+date: 1/21/2020
+author:
+  - name: Marius R. Saure,  Sondre H. Iversen,  Andreas B. Snekkevik,  Rose Gebhardt,  Zhiyang Chen,  Christopher Mignano, Dirk Luchtenburg,  Thomas J. Impelluso
+    url: https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2019/59421/V005T07A002/1072962
+#    affiliation: Spacely Sprockets
+#    affiliation-url: https://example.com/spacelysprokets
+citation:
+  type: article
+  container-title: "ASME IMECE 2019"
+  doi: "10.1115/IMECE2019-10282"
+#  url: https://example.com/summarizing-output
+# bibliography: biblio.bib
+---
+[PDF](saure2019asme.pdf)

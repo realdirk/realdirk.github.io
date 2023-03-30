@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "Cooper Dynamics and Control"
+  site-url: https://dluchten.github.io
+  description: "Cooper Union - Dynamics and Control Lab"
+  page-footer: "Copyright 2023, Dirk M. Luchtenburg"
+
+  navbar:
+    logo: /images/icon.png
+    background: light
+    left:
+      - href: index.qmd
+        text: home
+      - people.qmd
+      - research.qmd
+      - teaching.qmd
+      - href: publications.qmd
+        text: publications
+
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+    output-dir: docs
+
+
+freeze: auto

@@ -1,0 +1,11 @@
+---
+title: "Dynamics and Control Lab"
+author: ""
+about:
+  template: jolla
+---
+
+The Dynamics and Control Lab at [The Cooper Union](https://cooper.edu) is a place where undergraduate students develop model-based controllers for smart vehicles, such as quadcopters and ground robots.
+
+{{< video https://youtu.be/FtZw3cjSUnk >}}
+

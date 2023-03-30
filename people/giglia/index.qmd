@@ -1,0 +1,11 @@
+---
+title: "Michael Giglia"
+image: "giglia.jpg"
+author: ""
+order: 2
+---
+
+Michael Giglia is Mechanical/Electrical Engineering Technician at the Cooper Union.
+
+![](giglia.jpg)
+
