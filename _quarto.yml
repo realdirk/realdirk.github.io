@@ -4,6 +4,7 @@ project:
 
 
 website:
+  google-analytics: "G-JNDV6DMM4Q"
   title: "Cooper Dynamics and Control"
   site-url: https://dluchten.github.io
   description: "Cooper Union - Dynamics and Control Lab"
