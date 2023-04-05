@@ -1,0 +1,10 @@
+---
+order: 3
+title: "Gyroscope Assisted Stair Climbing Car"
+image: "gyro_test_stand.jpg"
+description: | 
+  The goal of this project is to use gyroscopes to lift a vehicle such that it can climb stairs.
+---
+Inspired by the success of Seakeeper gyroscopic boat stabilization, this project has the ambitious goal of using gyroscopically generated torque to allow a car to climb up a set of stairs. The team is a group of five junior mechanical engineering students whose broad set of interests has allowed the scope of this project to include mathematical modeling and simulation, implementation of control schemes, sensor data acquisition, and mechanical design and manufacturing.
+
+The initial design is a reaction wheel placed inside the frame of the car. The wheel is spun up to ridiculous speeds over the course of a few minutes, then a brake is suddenly applied. Conservation of momentum will cause the car to pitch upwards and bring the center of mass over one set of wheels. Subsequently the car can balance in that position through actuation of both the ground wheels and reaction wheel according to a control algorithm.

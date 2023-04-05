@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="The goal of this project is to use gyroscopes to lift a vehicle such that it can climb stairs.">
 
-<title>Cooper Dynamics and Control - research</title>
+<title>Cooper Dynamics and Control - Gyroscope Assisted Stair Climbing Car</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,35 +59,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JNDV6DMM4Q"></script>
 
 <script type="text/javascript">
@@ -99,9 +69,8 @@ gtag('js', new Date());
 gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -111,10 +80,10 @@ gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/icon.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/icon.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Cooper Dynamics and Control</span>
     </a>
   </div>
@@ -124,23 +93,23 @@ gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../../index.html">
  <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html">
+    <a class="nav-link" href="../../people.html">
  <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page">
+    <a class="nav-link" href="../../research.html">
  <span class="menu-text">research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html">
+    <a class="nav-link" href="../../teaching.html">
  <span class="menu-text">teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html">
+    <a class="nav-link" href="../../publications.html">
  <span class="menu-text">publications</span></a>
   </li>  
 </ul>
@@ -150,127 +119,45 @@ gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Gyroscope Assisted Stair Climbing Car</h1>
+                  <div>
+        <div class="description">
+          <p>The goal of this project is to use gyroscopes to lift a vehicle such that it can climb stairs.</p>
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">research</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<p>Inspired by the success of Seakeeper gyroscopic boat stabilization, this project has the ambitious goal of using gyroscopically generated torque to allow a car to climb up a set of stairs. The team is a group of five junior mechanical engineering students whose broad set of interests has allowed the scope of this project to include mathematical modeling and simulation, implementation of control schemes, sensor data acquisition, and mechanical design and manufacturing.</p>
+<p>The initial design is a reaction wheel placed inside the frame of the car. The wheel is spun up to ridiculous speeds over the course of a few minutes, then a brake is suddenly applied. Conservation of momentum will cause the car to pitch upwards and bring the center of mass over one set of wheels. Subsequently the car can balance in that position through actuation of both the ground wheels and reaction wheel according to a control algorithm.</p>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1680139690039" data-listing-reading-time-sort="0.59">
-<div class="thumbnail">
-<p><a href="./research/drone swarming/index.html"> <img src="./research/drone swarming/crazyflie.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./research/drone swarming/index.html">
-<h3 class="no-anchor listing-title">
-Visualizing Physical Phenomena Using Swarming Nano Quadrotors
-</h3>
-<div class="listing-subtitle">
 
-</div>
-<div class="listing-description">
-<p>The goal of this project is to use drones as analogies and metaphors of physical systems.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./research/drone swarming/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1680184947054" data-listing-reading-time-sort="0.58">
-<div class="thumbnail">
-<p><a href="./research/ground robots/index.html"> <img src="./research/ground robots/irobot.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./research/ground robots/index.html">
-<h3 class="no-anchor listing-title">
-Ground robots
-</h3>
-<div class="listing-subtitle">
 
-</div>
-<div class="listing-description">
-<p>The aim of this research endeavor is to utilize ROS2 in conjunction with iRobot’s Create3 robot and the Vicon Motion Capture system available in the lab, either for the purpose of navigation or for the modeling of physical systems.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./research/ground robots/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1680719536874" data-listing-reading-time-sort="0.75">
-<div class="thumbnail">
-<p><a href="./research/gyrolift/index.html"> <img src="./research/gyrolift/gyro_test_stand.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./research/gyrolift/index.html">
-<h3 class="no-anchor listing-title">
-Gyroscope Assisted Stair Climbing Car
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>The goal of this project is to use gyroscopes to lift a vehicle such that it can climb stairs.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./research/gyrolift/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1680719527877" data-listing-reading-time-sort="0.105">
-<div class="thumbnail">
-<p><a href="./research/plasma blasting/index.html"> <img src="./research/plasma blasting/blast.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./research/plasma blasting/index.html">
-<h3 class="no-anchor listing-title">
-Plasma blasting
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>The aim of this research is to investigate commercial applications for a plasma blasting system, offering an innovative alternative to current rock and concrete fracturing methods.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./research/plasma blasting/index.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

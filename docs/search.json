@@ -7,6 +7,13 @@
     "text": "The goal of this project is to use drones as analogies and metaphors of physical systems. For instance, a drone can mimic the motion of a mass-spring system. While the drone is hovering in mid-air the user pulls it down to provide an initial displacement, and the drone starts oscillating with a frequency determined by the physical parameters of the mass-spring system. Similarly, multiple drones can be used to visualize standing and moving waves.\nJustin Rooney started this project as part of his M.Eng. thesis, PDF.\n\nThis project is now continued as a VIP course. Students Aymane Saissi, Amelia Chan, and Jason Chen, implemented a swarming drones demo that visualizes a tornado motion."
   },
   {
+    "objectID": "research/gyrolift/index.html",
+    "href": "research/gyrolift/index.html",
+    "title": "Gyroscope Assisted Stair Climbing Car",
+    "section": "",
+    "text": "Inspired by the success of Seakeeper gyroscopic boat stabilization, this project has the ambitious goal of using gyroscopically generated torque to allow a car to climb up a set of stairs. The team is a group of five junior mechanical engineering students whose broad set of interests has allowed the scope of this project to include mathematical modeling and simulation, implementation of control schemes, sensor data acquisition, and mechanical design and manufacturing.\nThe initial design is a reaction wheel placed inside the frame of the car. The wheel is spun up to ridiculous speeds over the course of a few minutes, then a brake is suddenly applied. Conservation of momentum will cause the car to pitch upwards and bring the center of mass over one set of wheels. Subsequently the car can balance in that position through actuation of both the ground wheels and reaction wheel according to a control algorithm."
+  },
+  {
     "objectID": "research/plasma blasting/index.html",
     "href": "research/plasma blasting/index.html",
     "title": "Plasma blasting",
@@ -32,7 +39,7 @@
     "href": "research.html",
     "title": "research",
     "section": "",
-    "text": "Visualizing Physical Phenomena Using Swarming Nano Quadrotors\n\n\n\n\n\nThe goal of this project is to use drones as analogies and metaphors of physical systems.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGround robots\n\n\n\n\n\nThe aim of this research endeavor is to utilize ROS2 in conjunction with iRobot’s Create3 robot and the Vicon Motion Capture system available in the lab, either for the purpose of navigation or for the modeling of physical systems.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPlasma blasting\n\n\n\n\n\nThe aim of this research is to investigate commercial applications for a plasma blasting system, offering an innovative alternative to current rock and concrete fracturing methods.\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Visualizing Physical Phenomena Using Swarming Nano Quadrotors\n\n\n\n\n\nThe goal of this project is to use drones as analogies and metaphors of physical systems.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGround robots\n\n\n\n\n\nThe aim of this research endeavor is to utilize ROS2 in conjunction with iRobot’s Create3 robot and the Vicon Motion Capture system available in the lab, either for the purpose of navigation or for the modeling of physical systems.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGyroscope Assisted Stair Climbing Car\n\n\n\n\n\nThe goal of this project is to use gyroscopes to lift a vehicle such that it can climb stairs.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPlasma blasting\n\n\n\n\n\nThe aim of this research is to investigate commercial applications for a plasma blasting system, offering an innovative alternative to current rock and concrete fracturing methods.\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/song2017ieee/index.html",
