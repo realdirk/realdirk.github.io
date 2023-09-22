@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Lecture notes ME431"
+  author: "Dirk M. Luchtenburg"
+  date: "9/1/2023"
+  chapters:
+    - index.qmd
+    - lec01/lec01.qmd
+    - lec02/lec02.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

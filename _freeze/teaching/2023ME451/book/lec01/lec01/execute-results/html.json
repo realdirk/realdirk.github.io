@@ -1,0 +1,16 @@
+{
+  "hash": "405bc8935d27fcb2523d4e259d56828a",
+  "result": {
+    "markdown": "---\ntitle: \"Class 1\"\nauthor: \"Eunkyu Kim (Q)\"\ndate: \"August 30, 2023\"\nformat: html\n---\n\n\n## What is control?\nThe subject of controls revolves around adjusting the available degree of freedoms (DOFs) to achieve acceptable level of operation of a system, or, in controls language, a plant. \n\n\n\n\n::: {.cell layout-align=\"center\" engine.opts='{\"dvisvgm.opts\":\"--font-format=woff\"}'}\n::: {.cell-output-display}\n![](lec01_files/figure-html/plant-1.svg){fig-align='center' width=25%}\n:::\n:::\n\n\nThe schematic above shows a very simple plant and control signal block diagram. \n$u$ represents the input signal, $y$ represents the output, and $d$ represents disturbances. \n\n\n## Typical Control Problems\nControl problems can commonly be categorized into three types:\n\n- *Regulator* -- adjust $u$ to counter\nact the effects of disturbances $d$.\n- *Tracking / Servo* -- adjust $u$ to keep output $y$ close to a reference $r$.\n- *Trajectory Generation* -- find reference $r(t)$ to achieve a desirable objective.\n\n## Course Preview\nThe following block diagram provides a preliminary overview of the topics that will be covered. When studying trajectory generation, we will be looking at things like Model Predictive Control (MPC), and Differential Flatness. On the other hand, some of the modern feedback compensators that we will be looking at include LQR/LQG, $H_2$, $H_\\infty$, etc.\n\n\n::: {.cell layout-align=\"center\" engine.opts='{\"dvisvgm.opts\":\"--font-format=woff\"}'}\n::: {.cell-output-display}\n![](lec01_files/figure-html/preview-1.svg){fig-align='center' width=70%}\n:::\n:::",
+    "supporting": [
+      "lec01_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

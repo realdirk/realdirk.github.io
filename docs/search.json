@@ -32,7 +32,7 @@
     "href": "teaching.html",
     "title": "teaching",
     "section": "",
-    "text": "ESC251 System Dynamics\n\n\n\n\n\nAn introductory course to the mathematical modeling of systems. Topics include mechanical elements and systems, electric circuits and analogous systems, fluid elements and systems, analysis of systems using transfer functions, state space equations, analog simulation and digital simulation. Also covered are block diagrams, Laplace transforms, and linear system analysis. Computer projects will be assigned that will use MATLAB software.\n\n\n\n\n\n\nMar 20, 2023\n\n\nDirk M Luchtenburg\n\n\n\n\n\n\nNo matching items"
+    "text": "Class 1\n\n\n\n\n\n\n\n\n\n\n\n\nAug 30, 2023\n\n\nEunkyu Kim (Q)\n\n\n\n\n\n\n  \n\n\n\n\nClass 2\n\n\n\n\n\n\n\n\n\n\n\n\nAug 31, 2023\n\n\nBenjamin Aziel\n\n\n\n\n\n\n  \n\n\n\n\nESC251 System Dynamics\n\n\n\n\n\nAn introductory course to the mathematical modeling of systems. Topics include mechanical elements and systems, electric circuits and analogous systems, fluid elements and systems, analysis of systems using transfer functions, state space equations, analog simulation and digital simulation. Also covered are block diagrams, Laplace transforms, and linear system analysis. Computer projects will be assigned that will use MATLAB software.\n\n\n\n\n\n\nMar 20, 2023\n\n\nDirk M Luchtenburg\n\n\n\n\n\n\n  \n\n\n\n\nGeneral information\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nME451\n\n\n\n\n\nAn introduction to the concepts and techniques utilized in the analysis and design of robust control systems. Topics include a review of state-space control systems concepts; standard regulator problem; reduced order observers and state feedback controllers; optimal and robust control design methods; utilization of computer-aided optimal control systems design software such as MATLAB. Techniques developed will be applied, in the form of student design projects, to a variety of challenging control systems design problems.\n\n\n\n\n\n\nMar 20, 2023\n\n\nDirk M Luchtenburg\n\n\n\n\n\n\n  \n\n\n\n\nReferences\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSummary\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -117,5 +117,75 @@
     "title": "Dirk M. Luchtenburg",
     "section": "",
     "text": "Dirk M. Luchtenburg is associate professor in the Department of Mechanical Engineering at the Cooper Union. His research interests include dynamics and control. He leads the Dynamics and Control Lab at Cooper Union, where undergraduate students develop model-based controllers for smart vehicles, such as quadcopters and ground robots.\nLuchtenburg received his MS degree in Aerospace Engineering from the Delft University of Technology (TU Delft) located in Delft, Netherlands. Subsequently, he received his PhD degree in Fluid Mechanics from the Berlin Institute of Technology (TU Berlin) where he studied under Bernd Noack and Rudibert King. After spending three years as a postdoc and lecturer at Princeton University under Clancy Rowley, he joined the Cooper Union as a research fellow in 2013, followed by a visiting assistant professorship. He was appointed full time faculty member in Mechanical Engineering in 2015. His interests span the fields of fluid mechanics, dynamics, and control.\nHe has a broad range of specializations including fluid flows, dynamics, and feedback control. He has applied these interests to a range of applications including active flow control of fluids, nonlinear aerodynamic stall models, model reduction and idenfication of fluid flows, and control of smart vehicles."
+  },
+  {
+    "objectID": "teaching/2023ME451/index.html",
+    "href": "teaching/2023ME451/index.html",
+    "title": "ME451",
+    "section": "",
+    "text": "Online notes"
+  },
+  {
+    "objectID": "teaching/2023ME451/book/references.html",
+    "href": "teaching/2023ME451/book/references.html",
+    "title": "References",
+    "section": "",
+    "text": "References"
+  },
+  {
+    "objectID": "teaching/2023ME451/book/index.html",
+    "href": "teaching/2023ME451/book/index.html",
+    "title": "General information",
+    "section": "",
+    "text": "General information\nLecture notes of ME451.\nThis is a Quarto book, to learn more visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "teaching/2023ME451/book/lec01/lec01.html",
+    "href": "teaching/2023ME451/book/lec01/lec01.html",
+    "title": "Class 1",
+    "section": "",
+    "text": "The subject of controls revolves around adjusting the available degree of freedoms (DOFs) to achieve acceptable level of operation of a system, or, in controls language, a plant.\n\n\n\n\n\n\n\n\n\nThe schematic above shows a very simple plant and control signal block diagram. \\(u\\) represents the input signal, \\(y\\) represents the output, and \\(d\\) represents disturbances."
+  },
+  {
+    "objectID": "teaching/2023ME451/book/lec01/lec01.html#what-is-control",
+    "href": "teaching/2023ME451/book/lec01/lec01.html#what-is-control",
+    "title": "Class 1",
+    "section": "",
+    "text": "The subject of controls revolves around adjusting the available degree of freedoms (DOFs) to achieve acceptable level of operation of a system, or, in controls language, a plant.\n\n\n\n\n\n\n\n\n\nThe schematic above shows a very simple plant and control signal block diagram. \\(u\\) represents the input signal, \\(y\\) represents the output, and \\(d\\) represents disturbances."
+  },
+  {
+    "objectID": "teaching/2023ME451/book/lec01/lec01.html#typical-control-problems",
+    "href": "teaching/2023ME451/book/lec01/lec01.html#typical-control-problems",
+    "title": "Class 1",
+    "section": "Typical Control Problems",
+    "text": "Typical Control Problems\nControl problems can commonly be categorized into three types:\n\nRegulator – adjust \\(u\\) to counter act the effects of disturbances \\(d\\).\nTracking / Servo – adjust \\(u\\) to keep output \\(y\\) close to a reference \\(r\\).\nTrajectory Generation – find reference \\(r(t)\\) to achieve a desirable objective."
+  },
+  {
+    "objectID": "teaching/2023ME451/book/lec01/lec01.html#course-preview",
+    "href": "teaching/2023ME451/book/lec01/lec01.html#course-preview",
+    "title": "Class 1",
+    "section": "Course Preview",
+    "text": "Course Preview\nThe following block diagram provides a preliminary overview of the topics that will be covered. When studying trajectory generation, we will be looking at things like Model Predictive Control (MPC), and Differential Flatness. On the other hand, some of the modern feedback compensators that we will be looking at include LQR/LQG, \\(H_2\\), \\(H_\\infty\\), etc."
+  },
+  {
+    "objectID": "teaching/2023ME451/book/summary.html",
+    "href": "teaching/2023ME451/book/summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Summary\nIn summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "teaching/2023ME451/book/lec02/lec02.html",
+    "href": "teaching/2023ME451/book/lec02/lec02.html",
+    "title": "Class 2",
+    "section": "",
+    "text": "A system is modeled by the transfer function \\(G(s)\\) can also be represented using a state-space realization, as follows:\n\\[ G(s) =  \\begin{bmatrix}\n\\begin{array}{c|c}\n  A & B \\\\\n  \\hline\n  C & D\n\\end{array}\n  \\end{bmatrix} \\qquad \\equiv \\qquad \\begin{eqnarray}\n  \\dot{x} &=& Ax + Bu \\\\\n  y &=& Cx + Du \\end{eqnarray}\\]\nWe can take the Laplace transform of this representation to get the following formula:\n\\[ G(s) = C(sI-A)^{-1} B + D \\]\nWe say \\(G(s)\\) is strictly proper if \\(G(i\\omega) \\to 0\\) as \\(\\omega \\to \\infty\\). \\(G(i\\omega)\\) approaches 0 when the degree of the denominator is higher than that of the numerator.\nFor example, the transfer function\n\\[G(s) = \\frac{1}{s+1}\\]\nis strictly proper because:\n\\[ \\deg (s+1) = 1 &gt; \\deg (1) = 0\\]\nLooking at the Bode plot of this transfer function shows that the magnitude continues to trend downwards towards \\(-\\infty\\) dB, which is equal to 0 (by any reasonable metric).\nWe say \\(G(s)\\) is semiproper/biproper if the degree of the denominator is equal to that of the numerator, and \\(G(s)\\) is proper if it is strictly proper or semiproper. (It’s equivalent to say \\(G(s)\\) is semiproper if \\(G(i\\omega) \\to d \\neq 0\\) as \\(\\omega \\to \\infty\\).) A notable example of a semiproper transfer function is the sensitivity function \\(S\\).\n\\(G(s)\\) is improper if \\(G(i\\omega) \\to \\infty\\) as \\(\\omega \\to \\infty\\) or when the degree of the numerator exceeds that of the denominator.\nSo what exactly makes the frequency response so compelling? Well, plugging a sinusoidal input into a linear time-invariant (LTI) system yields a sinusoidal response of the same frequency (in the steady-state). However, the response may differ in amplitude and phase.\nConsider an LTI system with input \\(u(t) = U_0 \\sin(\\omega t + \\alpha)\\) and output is \\(y(t) = Y_0 \\sin(\\omega t + \\beta)\\). We define amplification (or gain) as:\n\\[A := \\frac{Y_0}{U_0} = |G(i\\omega)|\\]\nEssentially, it’s a ratio of the output wave’s amplitude to the input wave’s amplitude.\nThe phase shift \\(\\varphi := \\beta - \\alpha = \\measuredangle G(i\\omega)\\) is the difference between the phases of the input and output signals.\nWe can also use phasor notation to represent sinusoidal functions - since \\(\\sin(\\omega t) = \\text{Im}(e^{i\\omega t})\\), we can write the time domain sinusoidal signals as follows:\n\\[u(t) = U_0 \\; \\text{Im} \\left\\{ e^{i(\\omega t+ \\alpha)} \\right\\}\\] \\[y(t) = Y_0 \\; \\text{Im} \\left\\{ e^{i(\\omega t+ \\beta)} \\right\\}\\]\nwhere:\n\\[Y_0 = |G(i \\omega)| U_0 \\qquad \\qquad \\beta = \\measuredangle G(i \\omega) + \\alpha\\]\nWe define the complex numbers \\(\\hat{u}\\) and \\(\\hat{y}\\) as follows1\n\\[\\hat{u}(\\omega) = U_0 e^{i \\alpha} \\qquad \\qquad \\hat{y}(\\omega) = Y_0 e^{i \\beta}\\]\nso we can write the sinusoidal response as:\n\\[ \\hat{y}(\\omega) e^{i\\omega t} = G(i\\omega) \\hat{u}(\\omega) e^{i\\omega t}\\]\nor more succinctly:\n\\[ \\hat{y}(\\omega) = G(i\\omega) \\hat{u}(\\omega) \\]\nAdditionally, before we dive into the rest of the course, we should be able to sketch a Bode plot by hand. We have MATLAB/Python, but having the ability to sketch good straight-line approximations comes with the intuition of how placing additional zeros/poles affects the dynamic behavior of a system.\nPut briefly, the rules are as follows:\nFor example, the transfer function\n\\[G(s) = \\frac{30(s+1)}{(s+0.01)^2 (s+10)}\\]\nhas one zero (at \\(s=-1\\)) and three poles (two at \\(s=-0.01\\) and one at \\(s=-10\\)). First, we calculate the DC gain, or \\(G(0)\\).\n\\[G(0) = \\frac{30(0+1)}{(0+0.01)^2 (0+10)} = 30\\times 10^3\\]\nSince \\(G(0) \\in \\mathbb{R}^+\\), the initial phase is \\(0^\\circ\\). Let’s take a look at the actual Bode plot to see how we might approach this naturally:\nThere’s two poles at \\(s= -0.01 = 10^{-2}\\), so the slope of the magnitude plot decreases by 40 dB/dec, and becomes -40 dB/dec (it breaks down twice), and the phase goes down to \\(-180^\\circ\\).\nNext, there’s a zero at \\(s = 1 = 10^0\\), so the slope of the magnitude plot increases by 20 dB/dec, becoming -20 dB/dec (it breaks up once). The phase goes up to \\(-90^\\circ\\).\nFinally, there’s one more pole at \\(s = 10 = 10^1\\), so the slope of the magnitude plot decreases by 20 dB/dec, becoming -40 dB/dec (it breaks down once). The phase once again goes down to \\(-180^\\circ\\).\nArmed with just a Bode plot, we can make solid, educated guesses about the transfer function and infer things about stability.\nFinally, we take a peek at a one degree-of-freedom feedback control system, pictured above. The input to the controller \\(K\\) is \\(r-y_m\\), where \\(y_m = y+n\\) is the measured output (used for negative feedback) and \\(n\\) is measurement noise.\nSome quick block diagram algebra yields the following equation for the input to the plant:\n\\[ u = K(r- y_m) = K (r - (y+n))\\]\nOur goal with this controller is to tweak input \\(u\\) such that the error \\(e = y-r\\) remains small.\nThe plant model is written as:\n\\[y = Gu + G_d \\, d = GK(r-(y+n)) + G_d \\, d\\]\nWe continue chugging through algebra to isolate \\(y\\):\n\\[(I+GK) y = GKr + G_d \\, d - GKn\\] \\[y = (I+GK)^{-1} GKr + (I+GK)^{-1} G_d \\, d - (I+GK)^{-1} GKn\\]\nWe define the following notation:\nNotice that \\(S+T = I\\).\nWe can now rewrite the closed-loop response as follows:\n\\[y = Tr + S G_d \\, d - T n\\]\nJust as a bonus, for SISO systems, the closed-loop transfer function (CLTF) rule for SISO systems with negative feedback can be summarized as follows:\n\\[ \\text{CLTF} = \\frac{\\text{forward gain}}{1 + \\text{loop gain}} \\]\nwhere “forward gain” represents the transfer function for the direct effect of the input on the output, and “loop gain” is the transfer function around the loop."
+  },
+  {
+    "objectID": "teaching/2023ME451/book/lec02/lec02.html#footnotes",
+    "href": "teaching/2023ME451/book/lec02/lec02.html#footnotes",
+    "title": "Class 2",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nApologies to Skogestad and Postlethwaite, your notation sucks. I’m switching things out wherever I see fit.↩︎"
   }
 ]
