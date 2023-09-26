@@ -7,4 +7,4 @@ date: 3/20/2023
 author:
   - name: Dirk M Luchtenburg
 ---
-The TA for this class, Benjamin Aziel, maintains a nice set of notes, [PDF](https://github.com/destrospooder/esc251_systems/blob/main/..systems.pdf)
+The TA for this class, Benjamin Aziel, maintains an e-book, [System Dynamics](https://azielben.quarto.pub/system-dynamics/)
