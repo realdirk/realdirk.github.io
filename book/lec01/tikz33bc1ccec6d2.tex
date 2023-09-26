@@ -1,0 +1,46 @@
+\documentclass[
+%% TIKZ_CLASSOPTION %%
+tikz
+]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{matrix}
+%% EXTRA_TIKZ_PREAMBLE_CODE %%
+\begin{document}
+%% TIKZ_CODE %%
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{math} 
+\tikzmath{\d = 10; } 
+
+\begin{tikzpicture}[auto, node distance=1.2cm,>=latex,
+coord/.style={coordinate},
+sum/.style={draw, circle},
+block/.style={draw, rectangle, fill=blue!20, minimum
+height=4em, minimum width=6em},
+connector/.style = {->,thick}
+]
+    % Nodes
+    \node (trajgen) [block, align=center] {Trajectory\\ generation};
+    \node (noise) [above=of trajgen] {noise};
+
+    \node (junc) [sum, right=of trajgen, yshift=\d] {};  
+
+    \node (plant) [block, right=of junc, yshift=\d] {Plant};  
+    \node (unc) [block, above=of plant] {$\Delta$};  
+    \node (comp) [block, align=center, below=of plant] {Feedback\\ Compensator};  
+
+    \node (tgu) [above=of trajgen] {};  
+
+    % Connectors
+    \draw[connector] (noise) -- ++(2,0) |- (plant.west);
+    \draw[connector] ([yshift=\d] trajgen.east) -- node [near start] {$u_d$} (junc);
+    \draw[connector] (junc) -- ([yshift=-\d] plant.west);    
+    \draw[connector] ([yshift=-\d] trajgen.east) -- node [near start, below] {$x_d$}  ++(1,0) |- ([yshift=-\d] comp.west);    
+    \draw[connector] ([yshift=\d] comp.west) -| (junc);
+    \draw[connector] ([yshift=-\d] plant.east) -- ++(1,0) |- (comp) node [right, pos=0.3] {sensors};
+    \draw[connector] (plant.east) -- node [above, pos=0.9] {output}  ++(2,0);
+    \draw[connector] ([yshift=\d] plant.east) -- ++(1,0)  |- (unc) node [above, pos=0.5] {uncertainty}; 
+    \draw[connector] (unc.west) -- ++(-1,0) |- ([yshift=\d] plant.west);
+
+\end{tikzpicture}
+\end{document}

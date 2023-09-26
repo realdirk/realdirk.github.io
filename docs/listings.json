@@ -1,14 +1,19 @@
 [
   {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/luchtenburg2021asme/index.html",
+      "/publications/saure2019asme/index.html",
+      "/publications/jin2019ieee/index.html",
+      "/publications/shekhtman2019asme/index.html",
+      "/publications/song2017ieee/index.html"
+    ]
+  },
+  {
     "listing": "/teaching.html",
     "items": [
-      "/teaching/2023ME451/book/lec01/lec01.html",
-      "/teaching/2023ME451/book/lec02/lec02.html",
       "/teaching/2023ESC251/index.html",
-      "/teaching/2023ME451/book/index.html",
-      "/teaching/2023ME451/index.html",
-      "/teaching/2023ME451/book/references.html",
-      "/teaching/2023ME451/book/summary.html"
+      "/teaching/2023ESC251 copy/index.html"
     ]
   },
   {
@@ -18,16 +23,6 @@
       "/research/ground robots/index.html",
       "/research/gyrolift/index.html",
       "/research/plasma blasting/index.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/luchtenburg2021asme/index.html",
-      "/publications/saure2019asme/index.html",
-      "/publications/jin2019ieee/index.html",
-      "/publications/shekhtman2019asme/index.html",
-      "/publications/song2017ieee/index.html"
     ]
   },
   {

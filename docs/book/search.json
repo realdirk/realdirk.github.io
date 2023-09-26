@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ME451 lecture notes",
+    "section": "",
+    "text": "ME451 lecture notes\nThis is a Quarto book, to learn more visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "lec01/lec01.html#what-is-control",
+    "href": "lec01/lec01.html#what-is-control",
+    "title": "1  Class 1",
+    "section": "1.1 What is control?",
+    "text": "1.1 What is control?\nThe subject of controls revolves around adjusting the available degree of freedoms (DOFs) to achieve acceptable level of operation of a system, or, in controls language, a plant.\n\n\n\n\n\n\n\n\n\nThe schematic above shows a very simple plant and control signal block diagram. \\(u\\) represents the input signal, \\(y\\) represents the output, and \\(d\\) represents disturbances."
+  },
+  {
+    "objectID": "lec01/lec01.html#typical-control-problems",
+    "href": "lec01/lec01.html#typical-control-problems",
+    "title": "1  Class 1",
+    "section": "1.2 Typical Control Problems",
+    "text": "1.2 Typical Control Problems\nControl problems can commonly be categorized into three types:\n\nRegulator – adjust \\(u\\) to counter act the effects of disturbances \\(d\\).\nTracking / Servo – adjust \\(u\\) to keep output \\(y\\) close to a reference \\(r\\).\nTrajectory Generation – find reference \\(r(t)\\) to achieve a desirable objective."
+  },
+  {
+    "objectID": "lec01/lec01.html#course-preview",
+    "href": "lec01/lec01.html#course-preview",
+    "title": "1  Class 1",
+    "section": "1.3 Course Preview",
+    "text": "1.3 Course Preview\nThe following block diagram provides a preliminary overview of the topics that will be covered. When studying trajectory generation, we will be looking at things like Model Predictive Control (MPC), and Differential Flatness. On the other hand, some of the modern feedback compensators that we will be looking at include LQR/LQG, \\(H_2\\), \\(H_\\infty\\), etc."
+  },
+  {
+    "objectID": "lec02/lec02.html#footnotes",
+    "href": "lec02/lec02.html#footnotes",
+    "title": "2  Class 2",
+    "section": "",
+    "text": "Apologies to Skogestad and Postlethwaite, your notation sucks. I’m switching things out wherever I see fit.↩︎"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  }
+]

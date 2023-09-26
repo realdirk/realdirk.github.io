@@ -1,0 +1,10 @@
+---
+title: "ME451 Modern Control"
+image: "formal_design.png"
+description: | 
+  An introduction to the concepts and techniques utilized in the analysis and design of robust control systems. Topics include a review of state-space control systems concepts; standard regulator problem; reduced order observers and state feedback controllers; optimal and robust control design methods; utilization of computer-aided optimal control systems design software such as MATLAB. Techniques developed will be applied, in the form of student design projects, to a variety of challenging control systems design problems. 
+date: 9/25/2023
+author:
+  - name: Dirk M Luchtenburg
+---
+Click the following link for lecture notes [lecture notes](../../book/index.html)

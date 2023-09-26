@@ -1,0 +1,41 @@
+project:
+  type: book
+  output-dir: "../docs/book"
+
+
+book:
+  author: "Dirk M. Luchtenburg"
+  date: "9/1/2023"
+  site-url: https://realdirk.github.io
+  description: "Cooper Union - Dynamics and Control Lab"
+  page-footer: "Copyright 2023, Dirk M. Luchtenburg"
+
+  navbar:
+    logo: ../images/icon.png
+    title: "Cooper Dynamics and Control"
+    background: light
+    left:
+      - href: ../index.html
+        text: home
+      - href: ../people.html
+        text: people
+      - href: ../research.html
+        text: research
+      - href: ../teaching.html
+        text: teaching
+      - href: ../publications.html
+        text: publications    
+  chapters:
+    - index.qmd
+    - lec01/lec01.qmd
+    - lec02/lec02.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: simplex
+  pdf:
+    documentclass: scrreprt

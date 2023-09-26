@@ -1,0 +1,101 @@
+---
+title: "Class 1"
+author: "Eunkyu Kim (Q)"
+date: "August 30, 2023"
+format: html
+---
+
+```{r include=FALSE}
+# Necessary for using dvisvgm on macOS
+# See https://www.andrewheiss.com/blog/2021/08/27/tikz-knitr-html-svg-fun/
+Sys.setenv(LIBGS = "/usr/local/Cellar/ghostscript/10.02.0/lib/libgs.10.dylib")
+font_opts <- list(dvisvgm.opts = "--font-format=woff")
+```
+
+## What is control?
+The subject of controls revolves around adjusting the available degree of freedoms (DOFs) to achieve acceptable level of operation of a system, or, in controls language, a plant. 
+
+```{tikz plant, engine.opts=font_opts}
+#| echo: false
+#| fig-align: center
+#| fig-ext: svg
+#| out-width: 25%
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{calc}
+
+\begin{tikzpicture}[auto, node distance=1cm,>=latex,
+coord/.style={coordinate},
+block/.style={draw, rectangle, fill=blue!20, minimum
+height=3em, minimum width=4em},
+connector/.style = {->,thick}
+]
+    % Nodes
+    \node (input) [coord] {};
+    \node (plant) [block, right=of input] {Plant};
+    \node (dist) [coord, above=of plant] {};   
+   \node (output) [coord, right=of plant] {};   
+    % Connectors
+    \draw [connector] (input) -- node [near start] {$u$} (plant);
+    \draw [connector] (dist) -- node [near start] {$d$} (plant);   
+    \draw [connector] (plant) -- node [near end] {$y$} (output);
+\end{tikzpicture}
+```
+
+The schematic above shows a very simple plant and control signal block diagram. 
+$u$ represents the input signal, $y$ represents the output, and $d$ represents disturbances. 
+
+
+## Typical Control Problems
+Control problems can commonly be categorized into three types:
+
+- *Regulator* -- adjust $u$ to counter
+act the effects of disturbances $d$.
+- *Tracking / Servo* -- adjust $u$ to keep output $y$ close to a reference $r$.
+- *Trajectory Generation* -- find reference $r(t)$ to achieve a desirable objective.
+
+## Course Preview
+The following block diagram provides a preliminary overview of the topics that will be covered. When studying trajectory generation, we will be looking at things like Model Predictive Control (MPC), and Differential Flatness. On the other hand, some of the modern feedback compensators that we will be looking at include LQR/LQG, $H_2$, $H_\infty$, etc.
+
+```{tikz preview, engine.opts=font_opts}
+#| echo: false
+#| fig-align: center
+#| fig-ext: svg
+#| out-width: 70%
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{math} 
+\tikzmath{\d = 10; } 
+
+\begin{tikzpicture}[auto, node distance=1.2cm,>=latex,
+coord/.style={coordinate},
+sum/.style={draw, circle},
+block/.style={draw, rectangle, fill=blue!20, minimum
+height=4em, minimum width=6em},
+connector/.style = {->,thick}
+]
+    % Nodes
+    \node (trajgen) [block, align=center] {Trajectory\\ generation};
+    \node (noise) [above=of trajgen] {noise};
+
+    \node (junc) [sum, right=of trajgen, yshift=\d] {};  
+
+    \node (plant) [block, right=of junc, yshift=\d] {Plant};  
+    \node (unc) [block, above=of plant] {$\Delta$};  
+    \node (comp) [block, align=center, below=of plant] {Feedback\\ Compensator};  
+
+    \node (tgu) [above=of trajgen] {};  
+
+    % Connectors
+    \draw[connector] (noise) -- ++(2,0) |- (plant.west);
+    \draw[connector] ([yshift=\d] trajgen.east) -- node [near start] {$u_d$} (junc);
+    \draw[connector] (junc) -- ([yshift=-\d] plant.west);    
+    \draw[connector] ([yshift=-\d] trajgen.east) -- node [near start, below] {$x_d$}  ++(1,0) |- ([yshift=-\d] comp.west);    
+    \draw[connector] ([yshift=\d] comp.west) -| (junc);
+    \draw[connector] ([yshift=-\d] plant.east) -- ++(1,0) |- (comp) node [right, pos=0.3] {sensors};
+    \draw[connector] (plant.east) -- node [above, pos=0.9] {output}  ++(2,0);
+    \draw[connector] ([yshift=\d] plant.east) -- ++(1,0)  |- (unc) node [above, pos=0.5] {uncertainty}; 
+    \draw[connector] (unc.west) -- ++(-1,0) |- ([yshift=\d] plant.west);
+
+\end{tikzpicture}
+```

@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Zhekai Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen Shlayan; Dirk Martin Luchtenburg">
-<meta name="dcterms.date" content="2019-11-28">
-<meta name="description" content="This paper presents a cost-friendly vehicle research platform and a robust implementation of SLAM.">
+<meta name="description" content="Cooper Union - Dynamics and Control Lab">
 
-<title>Cooper Dynamics and Control - A Multisensor Data Fusion Approach for Simultaneous Localization and Mapping</title>
+<title>References</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +21,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./summary.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,31 +80,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JNDV6DMM4Q"></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
-</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/icon.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./../images/icon.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Cooper Dynamics and Control</span>
     </a>
   </div>
@@ -97,23 +105,23 @@ gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
+    <a class="nav-link" href="./../index.html" rel="" target="">
  <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html" rel="" target="">
+    <a class="nav-link" href="./../people.html" rel="" target="">
  <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html" rel="" target="">
+    <a class="nav-link" href="./../research.html" rel="" target="">
  <span class="menu-text">research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html" rel="" target="">
+    <a class="nav-link" href="./../teaching.html" rel="" target="">
  <span class="menu-text">teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
+    <a class="nav-link" href="./../publications.html" rel="" target="">
  <span class="menu-text">publications</span></a>
   </li>  
 </ul>
@@ -122,91 +130,96 @@ gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">A Multisensor Data Fusion Approach for Simultaneous Localization and Mapping</h1>
-                  <div>
-        <div class="description">
-          <p>This paper presents a cost-friendly vehicle research platform and a robust implementation of SLAM.</p>
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p><a href="https://ieeexplore.ieee.org/abstract/document/8916930">Zhekai Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen Shlayan; Dirk Martin Luchtenburg</a> </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">November 28, 2019</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  <div>
-    <div class="abstract">
-      <div class="abstract-title">Abstract</div>
-      <p>Simultaneous localization and mapping (SLAM) has been an emerging research topic in the fields of robotics, autonomous driving, and unmanned aerial vehicles over the past thirty years. State of the art SLAM research is often inaccessible for undergraduate student researchers due to expensive hardware and difficult software setup. We present a cost-friendly vehicle research platform and a robust implementation of SLAM. Our SLAM algorithm fuses visual stereo image and 2D light detection and ranging (Lidar) data and uses loop closure for accurate odometry estimation. Our algorithm is benchmarked against other popular SLAM algorithms using the publicly available KITTI dataset and shown to be very accurate.</p>
-    </div>
-  </div>
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ME451 lecture notes</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lec01/lec01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Class 1</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lec02/lec02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Class 2</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">References</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p><a href="jin2019ieee.pdf">PDF</a></p>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div id="refs" role="list" style="display: none">
+
+</div>
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{jin; yifei shao; minjoon so; carl sable; neveen shlayan; dirk martin luchtenburg2019,
-  author = {Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen Shlayan;
-    Dirk Martin Luchtenburg, Zhekai},
-  title = {A {Multisensor} {Data} {Fusion} {Approach} for {Simultaneous}
-    {Localization} and {Mapping}},
-  date = {2019-11-28},
-  url = {https://dluchten.github.io/publications/jin2019ieee},
-  doi = {10.1109/ITSC.2019.8916930},
-  langid = {en},
-  abstract = {Simultaneous localization and mapping (SLAM) has been an
-    emerging research topic in the fields of robotics, autonomous
-    driving, and unmanned aerial vehicles over the past thirty years.
-    State of the art SLAM research is often inaccessible for
-    undergraduate student researchers due to expensive hardware and
-    difficult software setup. We present a cost-friendly vehicle
-    research platform and a robust implementation of SLAM. Our SLAM
-    algorithm fuses visual stereo image and 2D light detection and
-    ranging (Lidar) data and uses loop closure for accurate odometry
-    estimation. Our algorithm is benchmarked against other popular SLAM
-    algorithms using the publicly available KITTI dataset and shown to
-    be very accurate.}
-}
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-jin; yifei shao; minjoon so; carl sable; neveen shlayan; dirk martin luchtenburg2019" class="csl-entry quarto-appendix-citeas" role="listitem">
-Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen Shlayan; Dirk Martin
-Luchtenburg, Zhekai. 2019. <span>“A Multisensor Data Fusion Approach for
-Simultaneous Localization and Mapping.”</span> <em>IEEE ITSC 2019</em>.
-<a href="https://doi.org/10.1109/ITSC.2019.8916930">https://doi.org/10.1109/ITSC.2019.8916930</a>.
-</div></div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -440,6 +453,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./summary.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

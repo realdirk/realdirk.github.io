@@ -1,5 +1,0 @@
-# General information {.unnumbered}
-
-Lecture notes of ME451. 
-
-This is a Quarto book, to learn more visit <https://quarto.org/docs/books>.
