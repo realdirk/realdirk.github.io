@@ -28,7 +28,7 @@ As part of his master's thesis work in 2019, Justin Rooney developed an interact
 [Watch the drone tornado formation](https://youtu.be/FtZw3cjSUnk)  
 [Watch the magic wand demonstration](https://youtu.be/yokDwyV2J5U)
 
-*Related work: Justin Rooney, master's thesis (2020); magic wand demonstration (2019).*
+*Related work: Justin Rooney, [master's thesis abstract (2020)](https://cooper.edu/sites/default/files/uploads/assets/engineering/files/2020/Spring%202020%20Abstracts/Justin%20Rooney.pdf).*
 :::
 ::: {.laboratory-project-image}
 ![Quadrotor vehicles used in the laboratory.](laboratory_assets/drones.jpg)
