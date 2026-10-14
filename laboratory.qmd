@@ -23,9 +23,12 @@ The laboratory operates an indoor quadrotor flight arena with a **six-camera Vic
 ::: {.laboratory-project-text}
 The motion-capture-based flight platform has been used to demonstrate hovering, trajectory tracking, and coordinated motion of multiple quadrotors. Experiments connect mathematical models and simulations with measured flight behavior, including circular trajectories and synchronized formations.
 
-[Watch the drone tornado formation](https://youtu.be/FtZw3cjSUnk)
+As part of his master's thesis work in 2019, Justin Rooney developed an interactive **magic wand** demonstration in which the wand's motion determines the hover set-point for a swarm of Crazyflie nano quadrotors. The vehicles respond collectively, producing coordinated motion reminiscent of migratory bird formations.
 
-*Related work: Justin Rooney, master's thesis (2020).*
+[Watch the drone tornado formation](https://youtu.be/FtZw3cjSUnk)  
+[Watch the magic wand demonstration](https://youtu.be/yokDwyV2J5U)
+
+*Related work: Justin Rooney, master's thesis (2020); magic wand demonstration (2019).*
 :::
 ::: {.laboratory-project-image}
 ![Quadrotor vehicles used in the laboratory.](laboratory_assets/drones.jpg)
@@ -61,7 +64,5 @@ The project illustrates how geometric descriptions of motion inform the design a
 ![CAD rendering of a gyroscopically actuated vehicle.](laboratory_assets/gyro_car_cad.png)
 :::
 :::
-
-
 
 :::
