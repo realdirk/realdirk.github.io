@@ -1,16 +1,450 @@
 ---
-title: "selected publications"
-listing:
-  contents: publications/**/index.qmd
-  sort:
-    - "date desc"
-    - "title desc"
-  type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
-page-layout: full
+title: "Publications"
 title-block-banner: false
+page-layout: full
+toc: false
 ---
-[![](images/google-scholar.png){height=30}](https://scholar.google.com/citations?user=s7vf-rcAAAAJ&hl=en) [Google scholar](https://scholar.google.com/citations?user=s7vf-rcAAAAJ&hl=en)  for complete list
 
+::: {.publications-container}
+
+Publications are listed in reverse chronological order within each category. Titles link to publisher records where available. See my [Google Scholar profile](https://scholar.google.com/citations?user=s7vf-rcAAAAJ) for citation metrics.
+
+## Journal articles
+
+::: {.publication}
+
+### [Upper airway effective compliance during wakefulness and sleep in obese adolescents studied via two-dimensional dynamic MRI and semiautomated image segmentation](https://doi.org/10.1152/japplphysiol.00839.2020)
+
+K. R. Choy, S. Sin, Y. Tong, J. K. Udupa, D. M. Luchtenburg, M. E. Wagshul, R. Arens, and D. M. Wootton
+
+*Journal of Applied Physiology, vol. 131, no. 2, pp. 532–543, 2021.*
+
+[Open-access full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC8409921/)
+
+:::
+
+::: {.publication}
+
+### [Seven degrees-of-freedom model for the roll stabilization of unstable ships](https://doi.org/10.1115/1.4042950)
+
+D. Shekhtman and D. M. Luchtenburg
+
+*Journal of Dynamic Systems, Measurement, and Control, vol. 141, no. 8, article 081011, 2019.*
+
+:::
+
+::: {.publication}
+
+### [Unsteady high-angle-of-attack aerodynamic models of a generic jet transport](https://doi.org/10.2514/1.C032976)
+
+D. M. Luchtenburg, C. W. Rowley, M. W. Lohry, L. Martinelli, and R. F. Stengel
+
+*Journal of Aircraft, vol. 52, no. 3, pp. 890–895, 2015.*
+
+:::
+
+::: {.publication}
+
+### [Long-time uncertainty propagation using generalized polynomial chaos and flow map composition](https://doi.org/10.1016/j.jcp.2014.06.029)
+
+D. M. Luchtenburg, S. L. Brunton, and C. W. Rowley
+
+*Journal of Computational Physics, vol. 274, pp. 783–802, 2014.*
+
+[Open-access full text](https://faculty.washington.edu/sbrunton/papers/LuBrRo2014.pdf)
+
+:::
+
+::: {.publication}
+
+### [On dynamic mode decomposition: Theory and applications](https://doi.org/10.3934/jcd.2014.1.391)
+
+J. H. Tu, C. W. Rowley, D. M. Luchtenburg, S. L. Brunton, and J. N. Kutz
+
+*Journal of Computational Dynamics, vol. 1, no. 2, pp. 391–421, 2014.*
+
+[Open-access preprint](https://arxiv.org/abs/1312.0041)
+
+:::
+
+::: {.publication}
+
+### [Large-scale dynamics in the flow around a finite cylinder with a ground plate](https://doi.org/10.1088/0169-5983/43/1/015504)
+
+O. Frederich, J. Scouten, D. M. Luchtenburg, and F. Thiele
+
+*Fluid Dynamics Research, vol. 43, no. 1, article 015504, 2011.*
+
+:::
+
+::: {.publication}
+
+### [Combination of image postprocessing tools to identify coherent structures of premixed flames](https://doi.org/10.2514/1.J050188)
+
+A. Lacarelle, D. M. Luchtenburg, M. R. Bothien, B. R. Noack, and C. O. Paschereit
+
+*AIAA Journal, vol. 48, no. 8, pp. 1708–1720, 2010.*
+
+:::
+
+::: {.publication}
+
+### [A generalized mean-field model of the natural and high-frequency actuated flow around a high-lift configuration](https://doi.org/10.1017/S0022112008004965)
+
+D. M. Luchtenburg, B. Günther, B. R. Noack, R. King, and G. Tadmor
+
+*Journal of Fluid Mechanics, vol. 623, pp. 283–316, 2009.*
+
+:::
+
+::: {.publication}
+
+### [Spatio-temporal characterization of a conical swirler flow field under strong forcing](https://doi.org/10.1115/1.2982139)
+
+A. Lacarelle, T. Faustmann, D. Greenblatt, C. O. Paschereit, O. Lehmann, D. M. Luchtenburg, and B. R. Noack
+
+*Journal of Engineering for Gas Turbines and Power, vol. 131, no. 3, article 031504, 2009.*
+
+:::
+
+::: {.publication}
+
+### [Low-dimensional modelling of a transient cylinder wake using double proper orthogonal decomposition](https://doi.org/10.1017/S0022112008002115)
+
+S. G. Siegel, J. Seidel, C. Fagley, D. M. Luchtenburg, K. Cohen, and T. McLaughlin
+
+*Journal of Fluid Mechanics, vol. 610, pp. 1–42, 2008.*
+
+:::
+
+## Conference proceedings
+
+::: {.publication}
+
+### Controlled transport and station keeping between periodic cycles in the standard map
+
+D. M. Luchtenburg and S. D. Ross
+
+*Proceedings of the 2026 AAS/AIAA Astrodynamics Specialist Conference. AAS Paper 26-802, Whistler, British Columbia, July 26–30, 2026.*
+
+:::
+
+::: {.publication}
+
+### Dynamical classification of chaotic cislunar trajectories via resonance structure
+
+A. M. Lutz, D. M. Luchtenburg, A. Rawat, and S. D. Ross
+
+*Proceedings of the 2026 AAS/AIAA Astrodynamics Specialist Conference. AAS Paper 26-714, Whistler, British Columbia, July 26–30, 2026.*
+
+:::
+
+::: {.publication}
+
+### [Investigating the influence of mechanical configuration on energy efficiency in quadrupedal robots](https://doi.org/10.1115/IMECE2025-167556)
+
+N. Wolf-Sonkin, M. H. Rosen, and D. M. Luchtenburg
+
+*Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, paper IMECE2025-167556, article V005T08A051, 2026.*
+
+:::
+
+::: {.publication}
+
+### [Part 1: Gyroscopic control of robotic smart vehicles using SO(3)](https://doi.org/10.1115/IMECE2023-113518)
+
+J. Chen, E. Kim, C. Leppitsch, B. Meiner, D. Zaretsky, T. R. Rykkje, D. M. Luchtenburg, and T. J. Impelluso
+
+*Proceedings of the ASME 2023 International Mechanical Engineering Congress and Exposition, paper IMECE2023-113518, article V008T09A042, 2024.*
+
+:::
+
+::: {.publication}
+
+### [Part 2: Gyroscopic control of robotic smart vehicles using SE(3)](https://doi.org/10.1115/IMECE2023-111506)
+
+T. R. Rykkje, K. Johnsen, P. S. Hole, J. H. Jacobsen, D. Luchtenburg, and T. Impelluso
+
+*Proceedings of the ASME 2023 International Mechanical Engineering Congress and Exposition, paper IMECE2023-111506, article V008T09A039, 2024.*
+
+:::
+
+::: {.publication}
+
+### [A projection-based derivation of the equations of motion for the moving frame method for multi-body dynamics](https://doi.org/10.1115/IMECE2021-72324)
+
+D. M. Luchtenburg, M. Shah, T. J. Impelluso, and T. R. Rykkje
+
+*Proceedings of the ASME 2021 International Mechanical Engineering Congress and Exposition, paper IMECE2021-72324, article V009T09A005, 2021.*
+
+:::
+
+::: {.publication}
+
+### A multisensor data fusion approach for simultaneous localization and mapping
+
+Z. Jin, Y. Shao, M. So, C. Sable, N. Shlayan, and D. Luchtenburg
+
+*Proceedings of the 22nd IEEE Conference on Intelligent Transportation Systems Conference (ITSC), Paper MoG-T8.4, 2019.*
+
+:::
+
+::: {.publication}
+
+### Modelling the motion of a 2-arm ROV
+
+M. Saure, S. Iversen, A. Snekkevik, R. Gebhardt, Z. Chen, C. Mignano, D. M. Luchtenburg, and T. Impelluso
+
+*ASME International Mechanical Engineering Congress & Exposition, Paper 10282, 2019.*
+
+:::
+
+::: {.publication}
+
+### Upper airway area-pressure dynamic analysis tool for studying obstructive sleep apnea syndrome
+
+K. R. Choy, S. Sin, Y. Tong, J. Udupa, C. Wu, M. Wagshul, R. Arens, D. Luchtenburg, and D. Wootton
+
+*Proceedings of 45th Annual Northeast Bioengineering Conference (NEBEC), 2019.*
+
+:::
+
+::: {.publication}
+
+### [Justifying the stabilization of a marginally stable ship](https://doi.org/10.1115/DSCC2017-5116)
+
+D. Shekhtman and D. M. Luchtenburg
+
+*ASME Paper No. DSCC2017-5116, 2017.*
+
+:::
+
+::: {.publication}
+
+### [Using compliant leg design for impact attenuation of airdrop landings of quadruped robots](https://doi.org/10.1109/ICRA.2017.7989427)
+
+Y. Song and D. Luchtenburg
+
+*Robotics and Automation (ICRA), 2017 IEEE International Conference on. IEEE. 2017, pp. 3708–3713.*
+
+:::
+
+::: {.publication}
+
+### Modal analysis of complex turbulent flow
+
+O. Frederich and D. M. Luchtenburg
+
+*Proceedings of the 7th International Symposium on Turbulence and Shear Flow Phenomena (TSFP-7), 2011.*
+
+:::
+
+::: {.publication}
+
+### Robust nonlinear control versus linear model predictive control of a bluff body wake
+
+K. Aleksić, D. M. Luchtenburg, R. King, B. R. Noack, and J. Pfeiffer
+
+*AIAA Paper 2010-4833.*
+
+:::
+
+::: {.publication}
+
+### Large-scale dynamics in the flow around a finite cylinder with ground plate
+
+O. Frederich, J. Scouten, D. M. Luchtenburg, and F. Thiele
+
+*Proceedings of the 6th International Symposium on Turbulence and Shear Flow Phenomena (TSFP-6). 2009, pp. 1331–1336.*
+
+:::
+
+::: {.publication}
+
+### A combination of image post-processing tools to identify coherent structures of premixed flames
+
+A. Lacarelle, D. M. Luchtenburg, M. R. Bothien, C. O. Paschereit, and B. R. Noack
+
+*Proceedings of the 2nd International Conference on Jets, Wakes and Separated Flows (ICJWSF), 2008.*
+
+:::
+
+::: {.publication}
+
+### Joint numerical and experimental investigation of the flow around a finite wall-mounted cylinder at a Reynolds number of 200,000
+
+O. Frederich, J. Scouten, D. M. Luchtenburg, F. Thiele, M. Jensch, F. Hüttmann, M. Brede, and A. Leder
+
+*Proceedings of the ERCOFTAC International Symposium on Engineering Turbulence Modelling and Measurements (ETMM7). 2008, pp. 517–52.*
+
+:::
+
+::: {.publication}
+
+### Database variation and structure identification via POD of the flow around a wall-mounted finite cylinder
+
+O. Frederich, J. Scouten, D. M. Luchtenburg, and F. Thiele
+
+*Proceedings of 5th Conference on Bluff Body Wakes and Vortex Induced Vibrations (BBVIV5). 2007, pp. 185–188.*
+
+:::
+
+::: {.publication}
+
+### Low order Galerkin models for the actuated flow around 2-D airfoils
+
+G. Tadmor, M. D. Centuori, D. M. Luchtenburg, O. Lehmann, B. R. Noack, and M. Morzyński
+
+*AIAA Paper 2007–1313.*
+
+:::
+
+::: {.publication}
+
+### Tuned POD Galerkin models for transient feedback regulation of the cylinder wake
+
+D. M. Luchtenburg, G. Tadmor, O. Lehmann, B. R. Noack, R. King, and M. Morzyński
+
+*AIAA Paper 2006–1407.*
+
+:::
+
+::: {.publication}
+
+### Sensor based proper orthogonal decomposition state estimation in the presence of noise
+
+D. Wetlesen, S. Siegel, K. Cohen, D. M. Luchtenburg, and T. McLaughlin
+
+*AIAA Paper 2005–0298.*
+
+:::
+
+::: {.publication}
+
+### Wake stabilization using POD Galerkin models with interpolated modes
+
+O. Lehmann, D. M. Luchtenburg, B. R. Noack, R. King, M. Morzyński, and G. Tadmor
+
+*Proceedings of 44th IEEE Conference on Decision and Control and European Control Conference (CDC-ECC). 2005, pp. 500–505.*
+
+:::
+
+::: {.publication}
+
+### Comparison of 2D POD modes extracted from two- and three-dimensional simulations of a cylinder wake
+
+D. M. Luchtenburg, S. Siegel, K. Cohen, and T. McLaughlin
+
+*AIAA Paper 2004–1269.*
+
+:::
+
+::: {.publication}
+
+### Sensor placement for closed-loop flow control of a D-shaped cylinder wake
+
+K. Cohen, S. Siegel, D. M. Luchtenburg, T. McLaughlin, and A. Seifert
+
+*AIAA Paper 2004–2523.*
+
+:::
+
+::: {.publication}
+
+### Feasibility study of a hot plume test facility
+
+F. Bos, O. Bruijn, N. P. Hinsberg, T. J. J. Lombaerts, P. Lucas, D. M. Luchtenburg, J. A. S. Witteveen, and K. G. Zee
+
+*Proceedings of the Fourth Symposium on Aerothermodynamics for Space Vehicles: co-sponsored by European Space Agency. 2001, pp. 639–644.*
+
+:::
+
+## Book chapters
+
+::: {.publication}
+
+### [Turbulence control based on reduced-order models and nonlinear control design](https://doi.org/10.1007/978-3-642-11735-0_22)
+
+D. M. Luchtenburg, K. Aleksić, M. Schlegel, B. R. Noack, R. King, G. Tadmor, B. Günther, and F. Thiele
+
+*Active Flow Control II, vol. 108, pp. 341–356, 2010.*
+
+:::
+
+::: {.publication}
+
+### [Numerical simulation and analysis of the flow around a wall-mounted finite cylinder](https://doi.org/10.1007/978-3-642-01106-1_21)
+
+O. Frederich, J. Scouten, D. M. Luchtenburg, and F. Thiele
+
+*Imaging Measurement Methods for Flow Analysis, vol. 106, pp. 207–216, 2009.*
+
+:::
+
+::: {.publication}
+
+### [Reduced-order modelling of turbulent jets for noise control](https://doi.org/10.1007/978-3-540-89956-3_1)
+
+M. Schlegel, B. R. Noack, P. Comte, D. Kolomenskiy, K. Schneider, M. Farge, D. M. Luchtenburg, J. E. Scouten, and G. Tadmor
+
+*Numerical Simulation of Turbulent Flows and Noise Generation, vol. 104, pp. 3–27, 2009.*
+
+:::
+
+::: {.publication}
+
+### Analysis of the unsteady flow around a wall-mounted finite cylinder at Re=200,000
+
+O. Frederich, D. M. Luchtenburg, E. Wassen, and F. Thiele
+
+*Advances in Turbulence XI. Ed. by J. M. L. M. Palma and A. S. Lopes. Vol. 117. Proceedings in Physics. Springer, 2007, pp. 85–87.*
+
+:::
+
+## Book reviews
+
+::: {.publication}
+
+### [Data-driven science and engineering: Machine learning, dynamical systems, and control (Brunton and Kutz, 2020) \[Bookshelf\]](https://doi.org/10.1109/MCS.2021.3076544)
+
+D. M. Luchtenburg
+
+*IEEE Control Systems Magazine, vol. 41, no. 4, pp. 95–102, 2021.*
+
+:::
+
+## Conference abstracts
+
+::: {.publication}
+
+### [Implementation of a microphone array for improved noise path estimation in a feed-forward active noise control system](https://doi.org/10.1121/1.5147188)
+
+H. Y. Park, D. Abes, M. S. Lawless, and D. M. Luchtenburg
+
+*The Journal of the Acoustical Society of America, vol. 148, no. 4, p. 2588, 2020.*
+
+:::
+
+::: {.publication}
+
+### Stirring inertia in time-dependent low Reynolds number flows
+
+P. Yecko, D. M. Luchtenburg, E. Forgoston, and L. Billings
+
+*Bulletin of the American Physical Society, 2017.*
+
+:::
+
+## Dissertation
+
+::: {.publication}
+
+### Low-dimensional modelling and control of separated shear flows
+
+D. M. Luchtenburg
+
+*Ph.D. dissertation, Technische Universität Berlin, 2010.*
+
+:::
+
+:::

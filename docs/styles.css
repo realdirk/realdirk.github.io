@@ -1,1 +1,363 @@
-/* css styles */
+/* =========================================================
+   Academic website — shared design tokens
+   ========================================================= */
+
+:root {
+  --academic-navy: #173A5E;
+  --academic-blue: #2D78A8;
+  --academic-caption: #666;
+  --academic-gutter: 1.5rem;
+  --academic-title-size: 1.45rem;
+  --academic-item-size: 1.15rem;
+
+  /* Bootstrap / Quarto link colors */
+  --bs-link-color: var(--academic-blue);
+  --bs-link-color-rgb: 45, 120, 168;
+  --bs-link-hover-color: var(--academic-navy);
+  --bs-link-hover-color-rgb: 23, 58, 94;
+}
+
+a {
+  color: var(--academic-blue);
+}
+
+a:hover {
+  color: var(--academic-navy);
+}
+
+/* =========================================================
+   Shared page layout and headings
+   ========================================================= */
+
+/* Constrain each page's content and its Quarto title to the same width. */
+.home-container,
+.research-container,
+.publications-container,
+.teaching-container,
+.laboratory-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--academic-gutter);
+  padding-right: var(--academic-gutter);
+}
+
+.research-container,
+.publications-container,
+.teaching-container,
+.laboratory-container {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.research-container,
+body:has(.research-container) #title-block-header {
+  max-width: 1100px;
+}
+
+.publications-container,
+body:has(.publications-container) #title-block-header {
+  max-width: 850px;
+}
+
+.teaching-container,
+body:has(.teaching-container) #title-block-header {
+  max-width: 900px;
+}
+
+.laboratory-container,
+body:has(.laboratory-container) #title-block-header {
+  max-width: 1050px;
+}
+
+body:has(.research-container) #title-block-header,
+body:has(.publications-container) #title-block-header,
+body:has(.teaching-container) #title-block-header,
+body:has(.laboratory-container) #title-block-header {
+  margin: 2rem auto 0;
+  padding: 0 var(--academic-gutter);
+}
+
+/* Shared section and item heading treatment. */
+.research-section > h2,
+.teaching-container h2,
+.laboratory-container h2 {
+  color: var(--academic-navy);
+  font-size: var(--academic-title-size);
+  font-weight: 600;
+}
+
+.publication h3,
+.teaching-course h3,
+.laboratory-container h3 {
+  color: var(--academic-navy);
+  font-size: var(--academic-item-size);
+  font-weight: 600;
+}
+
+/* =========================================================
+   Homepage — portrait and introduction
+   ========================================================= */
+
+body:has(.home-container) #title-block-header {
+  display: none !important;
+}
+
+.home-container {
+  max-width: 1050px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+.home-photo,
+.home-intro {
+  margin: 0;
+  padding: 0;
+}
+
+.home-photo p {
+  margin: 0;
+}
+
+.home-intro h1 {
+  margin: 0 0 0.75rem;
+  padding: 0;
+  line-height: 1.15;
+}
+
+.home-intro p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.home-portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* =========================================================
+   Research — illustrated research themes
+   ========================================================= */
+
+.research-section {
+  margin: 2rem 0;
+}
+
+.research-section > h2 {
+  margin: 0 0 1.5rem;
+}
+
+.research-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.research-text p:first-child {
+  margin-top: 0;
+}
+
+.research-image figure {
+  margin: 0;
+}
+
+.research-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-image figcaption,
+.research-image .figure-caption {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--academic-caption);
+  margin-top: 0.5rem;
+}
+
+/* =========================================================
+   Publications — compact bibliographic entries
+   ========================================================= */
+
+.publication {
+  margin-bottom: 2rem;
+}
+
+.publication h3 {
+  line-height: 1.35;
+  margin: 0 0 0.4rem;
+}
+
+.publication h3 a {
+  color: var(--academic-navy);
+  text-decoration: none;
+}
+
+.publication h3 a:hover,
+.publication h3 a:focus-visible {
+  color: var(--academic-blue);
+  text-decoration: underline;
+}
+
+.publication p {
+  margin: 0 0 0.35rem;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   Teaching — philosophy, courses, and materials
+   ========================================================= */
+
+.teaching-container h2 {
+  margin-top: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.teaching-container h2:first-child {
+  margin-top: 0;
+}
+
+.teaching-course {
+  margin: 0 0 1.65rem;
+}
+
+.teaching-course h3 {
+  margin-bottom: 0.4rem;
+}
+
+.teaching-course p {
+  margin-top: 0;
+}
+
+.teaching-container p {
+  line-height: 1.65;
+}
+
+/* =========================================================
+   Laboratory — experimental platform and selected projects
+   ========================================================= */
+
+.laboratory-container > p:first-child {
+  line-height: 1.65;
+}
+
+.laboratory-container h2 {
+  margin: 2.2rem 0 1rem;
+}
+
+.laboratory-container h3 {
+  margin: 1.6rem 0 0.85rem;
+}
+
+/* One restrained introductory photograph. */
+.laboratory-container .quarto-figure:has(.laboratory-hero),
+.laboratory-container figure:has(.laboratory-hero) {
+  max-width: 540px;
+  margin: 1.2rem auto 1.8rem;
+}
+
+.laboratory-hero {
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  margin: 1.2rem auto 0;
+}
+
+.laboratory-container figure:has(.laboratory-hero) figcaption,
+.laboratory-container .quarto-figure:has(.laboratory-hero) .figure-caption {
+  text-align: center;
+}
+
+/* Project text and its primary illustration are paired. */
+.laboratory-project {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 2.25rem;
+}
+
+.laboratory-project-text,
+.laboratory-project-image {
+  min-width: 0;
+}
+
+.laboratory-project-text > p:first-child {
+  margin-top: 0;
+}
+
+.laboratory-project-text p {
+  line-height: 1.6;
+}
+
+.laboratory-project-image figure,
+.laboratory-project-image .quarto-figure {
+  margin: 0;
+  max-width: 100%;
+}
+
+.laboratory-project-image img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+}
+
+.laboratory-project-image .figure-caption,
+.laboratory-project-image figcaption,
+.laboratory-container .figure-caption {
+  color: var(--academic-caption);
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+
+/* Poster is a clickable preview, not a full-width document. */
+.laboratory-poster img {
+  max-width: 390px;
+}
+
+/* =========================================================
+   Responsive layouts
+   ========================================================= */
+
+@media (max-width: 750px) {
+  .research-row,
+  .laboratory-project {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .research-container,
+  .publications-container,
+  .teaching-container,
+  .laboratory-container {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .home-portrait {
+    max-width: 220px;
+  }
+
+  .home-container {
+    margin-top: 2rem;
+  }
+}

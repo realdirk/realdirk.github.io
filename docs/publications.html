@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Cooper Dynamics and Control - selected publications</title>
+<title>Publications – Dirk M. Luchtenburg</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -30,24 +36,29 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e5e1d0de5158638c5ada7f2072769555.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,40 +67,12 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JNDV6DMM4Q"></script>
 
 <script type="text/javascript">
@@ -100,56 +83,59 @@ gtag('js', new Date());
 gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/icon.png" alt="" class="navbar-logo">
+    <img src="./images/icon.png" alt="" class="navbar-logo light-content">
+    <img src="./images/icon.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Cooper Dynamics and Control</span>
+    <span class="navbar-title">Dirk M. Luchtenburg</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html" rel="" target="">
- <span class="menu-text">people</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">research</span></a>
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" rel="" target="" aria-current="page">
- <span class="menu-text">publications</span></a>
+    <a class="nav-link" href="./laboratory.html"> 
+<span class="menu-text">Laboratory</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -157,20 +143,18 @@ gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">selected publications</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -178,198 +162,301 @@ gtag('config', 'G-JNDV6DMM4Q', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
 
-<p><a href="https://scholar.google.com/citations?user=s7vf-rcAAAAJ&amp;hl=en"><img src="images/google-scholar.png" height="30"></a> <a href="https://scholar.google.com/citations?user=s7vf-rcAAAAJ&amp;hl=en">Google scholar</a> for complete list</p>
+
+<div class="publications-container">
+<p>Publications are listed in reverse chronological order within each category. Titles link to publisher records where available. See my <a href="https://scholar.google.com/citations?user=s7vf-rcAAAAJ">Google Scholar profile</a> for citation metrics.</p>
+<section id="journal-articles" class="level2">
+<h2 class="anchored" data-anchor-id="journal-articles">Journal articles</h2>
+<section id="upper-airway-effective-compliance-during-wakefulness-and-sleep-in-obese-adolescents-studied-via-two-dimensional-dynamic-mri-and-semiautomated-image-segmentation" class="level3 publication">
+<h3 class="anchored" data-anchor-id="upper-airway-effective-compliance-during-wakefulness-and-sleep-in-obese-adolescents-studied-via-two-dimensional-dynamic-mri-and-semiautomated-image-segmentation"><a href="https://doi.org/10.1152/japplphysiol.00839.2020">Upper airway effective compliance during wakefulness and sleep in obese adolescents studied via two-dimensional dynamic MRI and semiautomated image segmentation</a></h3>
+<p>K. R. Choy, S. Sin, Y. Tong, J. K. Udupa, D. M. Luchtenburg, M. E. Wagshul, R. Arens, and D. M. Wootton</p>
+<p><em>Journal of Applied Physiology, vol.&nbsp;131, no. 2, pp.&nbsp;532–543, 2021.</em></p>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8409921/">Open-access full text</a></p>
+</section>
+<section id="seven-degrees-of-freedom-model-for-the-roll-stabilization-of-unstable-ships" class="level3 publication">
+<h3 class="anchored" data-anchor-id="seven-degrees-of-freedom-model-for-the-roll-stabilization-of-unstable-ships"><a href="https://doi.org/10.1115/1.4042950">Seven degrees-of-freedom model for the roll stabilization of unstable ships</a></h3>
+<p>D. Shekhtman and D. M. Luchtenburg</p>
+<p><em>Journal of Dynamic Systems, Measurement, and Control, vol.&nbsp;141, no. 8, article 081011, 2019.</em></p>
+</section>
+<section id="unsteady-high-angle-of-attack-aerodynamic-models-of-a-generic-jet-transport" class="level3 publication">
+<h3 class="anchored" data-anchor-id="unsteady-high-angle-of-attack-aerodynamic-models-of-a-generic-jet-transport"><a href="https://doi.org/10.2514/1.C032976">Unsteady high-angle-of-attack aerodynamic models of a generic jet transport</a></h3>
+<p>D. M. Luchtenburg, C. W. Rowley, M. W. Lohry, L. Martinelli, and R. F. Stengel</p>
+<p><em>Journal of Aircraft, vol.&nbsp;52, no. 3, pp.&nbsp;890–895, 2015.</em></p>
+</section>
+<section id="long-time-uncertainty-propagation-using-generalized-polynomial-chaos-and-flow-map-composition" class="level3 publication">
+<h3 class="anchored" data-anchor-id="long-time-uncertainty-propagation-using-generalized-polynomial-chaos-and-flow-map-composition"><a href="https://doi.org/10.1016/j.jcp.2014.06.029">Long-time uncertainty propagation using generalized polynomial chaos and flow map composition</a></h3>
+<p>D. M. Luchtenburg, S. L. Brunton, and C. W. Rowley</p>
+<p><em>Journal of Computational Physics, vol.&nbsp;274, pp.&nbsp;783–802, 2014.</em></p>
+<p><a href="https://faculty.washington.edu/sbrunton/papers/LuBrRo2014.pdf">Open-access full text</a></p>
+</section>
+<section id="on-dynamic-mode-decomposition-theory-and-applications" class="level3 publication">
+<h3 class="anchored" data-anchor-id="on-dynamic-mode-decomposition-theory-and-applications"><a href="https://doi.org/10.3934/jcd.2014.1.391">On dynamic mode decomposition: Theory and applications</a></h3>
+<p>J. H. Tu, C. W. Rowley, D. M. Luchtenburg, S. L. Brunton, and J. N. Kutz</p>
+<p><em>Journal of Computational Dynamics, vol.&nbsp;1, no. 2, pp.&nbsp;391–421, 2014.</em></p>
+<p><a href="https://arxiv.org/abs/1312.0041">Open-access preprint</a></p>
+</section>
+<section id="large-scale-dynamics-in-the-flow-around-a-finite-cylinder-with-a-ground-plate" class="level3 publication">
+<h3 class="anchored" data-anchor-id="large-scale-dynamics-in-the-flow-around-a-finite-cylinder-with-a-ground-plate"><a href="https://doi.org/10.1088/0169-5983/43/1/015504">Large-scale dynamics in the flow around a finite cylinder with a ground plate</a></h3>
+<p>O. Frederich, J. Scouten, D. M. Luchtenburg, and F. Thiele</p>
+<p><em>Fluid Dynamics Research, vol.&nbsp;43, no. 1, article 015504, 2011.</em></p>
+</section>
+<section id="combination-of-image-postprocessing-tools-to-identify-coherent-structures-of-premixed-flames" class="level3 publication">
+<h3 class="anchored" data-anchor-id="combination-of-image-postprocessing-tools-to-identify-coherent-structures-of-premixed-flames"><a href="https://doi.org/10.2514/1.J050188">Combination of image postprocessing tools to identify coherent structures of premixed flames</a></h3>
+<p>A. Lacarelle, D. M. Luchtenburg, M. R. Bothien, B. R. Noack, and C. O. Paschereit</p>
+<p><em>AIAA Journal, vol.&nbsp;48, no. 8, pp.&nbsp;1708–1720, 2010.</em></p>
+</section>
+<section id="a-generalized-mean-field-model-of-the-natural-and-high-frequency-actuated-flow-around-a-high-lift-configuration" class="level3 publication">
+<h3 class="anchored" data-anchor-id="a-generalized-mean-field-model-of-the-natural-and-high-frequency-actuated-flow-around-a-high-lift-configuration"><a href="https://doi.org/10.1017/S0022112008004965">A generalized mean-field model of the natural and high-frequency actuated flow around a high-lift configuration</a></h3>
+<p>D. M. Luchtenburg, B. Günther, B. R. Noack, R. King, and G. Tadmor</p>
+<p><em>Journal of Fluid Mechanics, vol.&nbsp;623, pp.&nbsp;283–316, 2009.</em></p>
+</section>
+<section id="spatio-temporal-characterization-of-a-conical-swirler-flow-field-under-strong-forcing" class="level3 publication">
+<h3 class="anchored" data-anchor-id="spatio-temporal-characterization-of-a-conical-swirler-flow-field-under-strong-forcing"><a href="https://doi.org/10.1115/1.2982139">Spatio-temporal characterization of a conical swirler flow field under strong forcing</a></h3>
+<p>A. Lacarelle, T. Faustmann, D. Greenblatt, C. O. Paschereit, O. Lehmann, D. M. Luchtenburg, and B. R. Noack</p>
+<p><em>Journal of Engineering for Gas Turbines and Power, vol.&nbsp;131, no. 3, article 031504, 2009.</em></p>
+</section>
+<section id="low-dimensional-modelling-of-a-transient-cylinder-wake-using-double-proper-orthogonal-decomposition" class="level3 publication">
+<h3 class="anchored" data-anchor-id="low-dimensional-modelling-of-a-transient-cylinder-wake-using-double-proper-orthogonal-decomposition"><a href="https://doi.org/10.1017/S0022112008002115">Low-dimensional modelling of a transient cylinder wake using double proper orthogonal decomposition</a></h3>
+<p>S. G. Siegel, J. Seidel, C. Fagley, D. M. Luchtenburg, K. Cohen, and T. McLaughlin</p>
+<p><em>Journal of Fluid Mechanics, vol.&nbsp;610, pp.&nbsp;1–42, 2008.</em></p>
+</section>
+</section>
+<section id="conference-proceedings" class="level2">
+<h2 class="anchored" data-anchor-id="conference-proceedings">Conference proceedings</h2>
+<section id="controlled-transport-and-station-keeping-between-periodic-cycles-in-the-standard-map" class="level3 publication">
+<h3 class="anchored" data-anchor-id="controlled-transport-and-station-keeping-between-periodic-cycles-in-the-standard-map">Controlled transport and station keeping between periodic cycles in the standard map</h3>
+<p>D. M. Luchtenburg and S. D. Ross</p>
+<p><em>Proceedings of the 2026 AAS/AIAA Astrodynamics Specialist Conference. AAS Paper 26-802, Whistler, British Columbia, July 26–30, 2026.</em></p>
+</section>
+<section id="dynamical-classification-of-chaotic-cislunar-trajectories-via-resonance-structure" class="level3 publication">
+<h3 class="anchored" data-anchor-id="dynamical-classification-of-chaotic-cislunar-trajectories-via-resonance-structure">Dynamical classification of chaotic cislunar trajectories via resonance structure</h3>
+<p>A. M. Lutz, D. M. Luchtenburg, A. Rawat, and S. D. Ross</p>
+<p><em>Proceedings of the 2026 AAS/AIAA Astrodynamics Specialist Conference. AAS Paper 26-714, Whistler, British Columbia, July 26–30, 2026.</em></p>
+</section>
+<section id="investigating-the-influence-of-mechanical-configuration-on-energy-efficiency-in-quadrupedal-robots" class="level3 publication">
+<h3 class="anchored" data-anchor-id="investigating-the-influence-of-mechanical-configuration-on-energy-efficiency-in-quadrupedal-robots"><a href="https://doi.org/10.1115/IMECE2025-167556">Investigating the influence of mechanical configuration on energy efficiency in quadrupedal robots</a></h3>
+<p>N. Wolf-Sonkin, M. H. Rosen, and D. M. Luchtenburg</p>
+<p><em>Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, paper IMECE2025-167556, article V005T08A051, 2026.</em></p>
+</section>
+<section id="part-1-gyroscopic-control-of-robotic-smart-vehicles-using-so3" class="level3 publication">
+<h3 class="anchored" data-anchor-id="part-1-gyroscopic-control-of-robotic-smart-vehicles-using-so3"><a href="https://doi.org/10.1115/IMECE2023-113518">Part 1: Gyroscopic control of robotic smart vehicles using SO(3)</a></h3>
+<p>J. Chen, E. Kim, C. Leppitsch, B. Meiner, D. Zaretsky, T. R. Rykkje, D. M. Luchtenburg, and T. J. Impelluso</p>
+<p><em>Proceedings of the ASME 2023 International Mechanical Engineering Congress and Exposition, paper IMECE2023-113518, article V008T09A042, 2024.</em></p>
+</section>
+<section id="part-2-gyroscopic-control-of-robotic-smart-vehicles-using-se3" class="level3 publication">
+<h3 class="anchored" data-anchor-id="part-2-gyroscopic-control-of-robotic-smart-vehicles-using-se3"><a href="https://doi.org/10.1115/IMECE2023-111506">Part 2: Gyroscopic control of robotic smart vehicles using SE(3)</a></h3>
+<p>T. R. Rykkje, K. Johnsen, P. S. Hole, J. H. Jacobsen, D. Luchtenburg, and T. Impelluso</p>
+<p><em>Proceedings of the ASME 2023 International Mechanical Engineering Congress and Exposition, paper IMECE2023-111506, article V008T09A039, 2024.</em></p>
+</section>
+<section id="a-projection-based-derivation-of-the-equations-of-motion-for-the-moving-frame-method-for-multi-body-dynamics" class="level3 publication">
+<h3 class="anchored" data-anchor-id="a-projection-based-derivation-of-the-equations-of-motion-for-the-moving-frame-method-for-multi-body-dynamics"><a href="https://doi.org/10.1115/IMECE2021-72324">A projection-based derivation of the equations of motion for the moving frame method for multi-body dynamics</a></h3>
+<p>D. M. Luchtenburg, M. Shah, T. J. Impelluso, and T. R. Rykkje</p>
+<p><em>Proceedings of the ASME 2021 International Mechanical Engineering Congress and Exposition, paper IMECE2021-72324, article V009T09A005, 2021.</em></p>
+</section>
+<section id="a-multisensor-data-fusion-approach-for-simultaneous-localization-and-mapping" class="level3 publication">
+<h3 class="anchored" data-anchor-id="a-multisensor-data-fusion-approach-for-simultaneous-localization-and-mapping">A multisensor data fusion approach for simultaneous localization and mapping</h3>
+<p>Z. Jin, Y. Shao, M. So, C. Sable, N. Shlayan, and D. Luchtenburg</p>
+<p><em>Proceedings of the 22nd IEEE Conference on Intelligent Transportation Systems Conference (ITSC), Paper MoG-T8.4, 2019.</em></p>
+</section>
+<section id="modelling-the-motion-of-a-2-arm-rov" class="level3 publication">
+<h3 class="anchored" data-anchor-id="modelling-the-motion-of-a-2-arm-rov">Modelling the motion of a 2-arm ROV</h3>
+<p>M. Saure, S. Iversen, A. Snekkevik, R. Gebhardt, Z. Chen, C. Mignano, D. M. Luchtenburg, and T. Impelluso</p>
+<p><em>ASME International Mechanical Engineering Congress &amp; Exposition, Paper 10282, 2019.</em></p>
+</section>
+<section id="upper-airway-area-pressure-dynamic-analysis-tool-for-studying-obstructive-sleep-apnea-syndrome" class="level3 publication">
+<h3 class="anchored" data-anchor-id="upper-airway-area-pressure-dynamic-analysis-tool-for-studying-obstructive-sleep-apnea-syndrome">Upper airway area-pressure dynamic analysis tool for studying obstructive sleep apnea syndrome</h3>
+<p>K. R. Choy, S. Sin, Y. Tong, J. Udupa, C. Wu, M. Wagshul, R. Arens, D. Luchtenburg, and D. Wootton</p>
+<p><em>Proceedings of 45th Annual Northeast Bioengineering Conference (NEBEC), 2019.</em></p>
+</section>
+<section id="justifying-the-stabilization-of-a-marginally-stable-ship" class="level3 publication">
+<h3 class="anchored" data-anchor-id="justifying-the-stabilization-of-a-marginally-stable-ship"><a href="https://doi.org/10.1115/DSCC2017-5116">Justifying the stabilization of a marginally stable ship</a></h3>
+<p>D. Shekhtman and D. M. Luchtenburg</p>
+<p><em>ASME Paper No.&nbsp;DSCC2017-5116, 2017.</em></p>
+</section>
+<section id="using-compliant-leg-design-for-impact-attenuation-of-airdrop-landings-of-quadruped-robots" class="level3 publication">
+<h3 class="anchored" data-anchor-id="using-compliant-leg-design-for-impact-attenuation-of-airdrop-landings-of-quadruped-robots"><a href="https://doi.org/10.1109/ICRA.2017.7989427">Using compliant leg design for impact attenuation of airdrop landings of quadruped robots</a></h3>
+<p>Y. Song and D. Luchtenburg</p>
+<p><em>Robotics and Automation (ICRA), 2017 IEEE International Conference on. IEEE. 2017, pp.&nbsp;3708–3713.</em></p>
+</section>
+<section id="modal-analysis-of-complex-turbulent-flow" class="level3 publication">
+<h3 class="anchored" data-anchor-id="modal-analysis-of-complex-turbulent-flow">Modal analysis of complex turbulent flow</h3>
+<p>O. Frederich and D. M. Luchtenburg</p>
+<p><em>Proceedings of the 7th International Symposium on Turbulence and Shear Flow Phenomena (TSFP-7), 2011.</em></p>
+</section>
+<section id="robust-nonlinear-control-versus-linear-model-predictive-control-of-a-bluff-body-wake" class="level3 publication">
+<h3 class="anchored" data-anchor-id="robust-nonlinear-control-versus-linear-model-predictive-control-of-a-bluff-body-wake">Robust nonlinear control versus linear model predictive control of a bluff body wake</h3>
+<p>K. Aleksić, D. M. Luchtenburg, R. King, B. R. Noack, and J. Pfeiffer</p>
+<p><em>AIAA Paper 2010-4833.</em></p>
+</section>
+<section id="large-scale-dynamics-in-the-flow-around-a-finite-cylinder-with-ground-plate" class="level3 publication">
+<h3 class="anchored" data-anchor-id="large-scale-dynamics-in-the-flow-around-a-finite-cylinder-with-ground-plate">Large-scale dynamics in the flow around a finite cylinder with ground plate</h3>
+<p>O. Frederich, J. Scouten, D. M. Luchtenburg, and F. Thiele</p>
+<p><em>Proceedings of the 6th International Symposium on Turbulence and Shear Flow Phenomena (TSFP-6). 2009, pp.&nbsp;1331–1336.</em></p>
+</section>
+<section id="a-combination-of-image-post-processing-tools-to-identify-coherent-structures-of-premixed-flames" class="level3 publication">
+<h3 class="anchored" data-anchor-id="a-combination-of-image-post-processing-tools-to-identify-coherent-structures-of-premixed-flames">A combination of image post-processing tools to identify coherent structures of premixed flames</h3>
+<p>A. Lacarelle, D. M. Luchtenburg, M. R. Bothien, C. O. Paschereit, and B. R. Noack</p>
+<p><em>Proceedings of the 2nd International Conference on Jets, Wakes and Separated Flows (ICJWSF), 2008.</em></p>
+</section>
+<section id="joint-numerical-and-experimental-investigation-of-the-flow-around-a-finite-wall-mounted-cylinder-at-a-reynolds-number-of-200000" class="level3 publication">
+<h3 class="anchored" data-anchor-id="joint-numerical-and-experimental-investigation-of-the-flow-around-a-finite-wall-mounted-cylinder-at-a-reynolds-number-of-200000">Joint numerical and experimental investigation of the flow around a finite wall-mounted cylinder at a Reynolds number of 200,000</h3>
+<p>O. Frederich, J. Scouten, D. M. Luchtenburg, F. Thiele, M. Jensch, F. Hüttmann, M. Brede, and A. Leder</p>
+<p><em>Proceedings of the ERCOFTAC International Symposium on Engineering Turbulence Modelling and Measurements (ETMM7). 2008, pp.&nbsp;517–52.</em></p>
+</section>
+<section id="database-variation-and-structure-identification-via-pod-of-the-flow-around-a-wall-mounted-finite-cylinder" class="level3 publication">
+<h3 class="anchored" data-anchor-id="database-variation-and-structure-identification-via-pod-of-the-flow-around-a-wall-mounted-finite-cylinder">Database variation and structure identification via POD of the flow around a wall-mounted finite cylinder</h3>
+<p>O. Frederich, J. Scouten, D. M. Luchtenburg, and F. Thiele</p>
+<p><em>Proceedings of 5th Conference on Bluff Body Wakes and Vortex Induced Vibrations (BBVIV5). 2007, pp.&nbsp;185–188.</em></p>
+</section>
+<section id="low-order-galerkin-models-for-the-actuated-flow-around-2-d-airfoils" class="level3 publication">
+<h3 class="anchored" data-anchor-id="low-order-galerkin-models-for-the-actuated-flow-around-2-d-airfoils">Low order Galerkin models for the actuated flow around 2-D airfoils</h3>
+<p>G. Tadmor, M. D. Centuori, D. M. Luchtenburg, O. Lehmann, B. R. Noack, and M. Morzyński</p>
+<p><em>AIAA Paper 2007–1313.</em></p>
+</section>
+<section id="tuned-pod-galerkin-models-for-transient-feedback-regulation-of-the-cylinder-wake" class="level3 publication">
+<h3 class="anchored" data-anchor-id="tuned-pod-galerkin-models-for-transient-feedback-regulation-of-the-cylinder-wake">Tuned POD Galerkin models for transient feedback regulation of the cylinder wake</h3>
+<p>D. M. Luchtenburg, G. Tadmor, O. Lehmann, B. R. Noack, R. King, and M. Morzyński</p>
+<p><em>AIAA Paper 2006–1407.</em></p>
+</section>
+<section id="sensor-based-proper-orthogonal-decomposition-state-estimation-in-the-presence-of-noise" class="level3 publication">
+<h3 class="anchored" data-anchor-id="sensor-based-proper-orthogonal-decomposition-state-estimation-in-the-presence-of-noise">Sensor based proper orthogonal decomposition state estimation in the presence of noise</h3>
+<p>D. Wetlesen, S. Siegel, K. Cohen, D. M. Luchtenburg, and T. McLaughlin</p>
+<p><em>AIAA Paper 2005–0298.</em></p>
+</section>
+<section id="wake-stabilization-using-pod-galerkin-models-with-interpolated-modes" class="level3 publication">
+<h3 class="anchored" data-anchor-id="wake-stabilization-using-pod-galerkin-models-with-interpolated-modes">Wake stabilization using POD Galerkin models with interpolated modes</h3>
+<p>O. Lehmann, D. M. Luchtenburg, B. R. Noack, R. King, M. Morzyński, and G. Tadmor</p>
+<p><em>Proceedings of 44th IEEE Conference on Decision and Control and European Control Conference (CDC-ECC). 2005, pp.&nbsp;500–505.</em></p>
+</section>
+<section id="comparison-of-2d-pod-modes-extracted-from-two--and-three-dimensional-simulations-of-a-cylinder-wake" class="level3 publication">
+<h3 class="anchored" data-anchor-id="comparison-of-2d-pod-modes-extracted-from-two--and-three-dimensional-simulations-of-a-cylinder-wake">Comparison of 2D POD modes extracted from two- and three-dimensional simulations of a cylinder wake</h3>
+<p>D. M. Luchtenburg, S. Siegel, K. Cohen, and T. McLaughlin</p>
+<p><em>AIAA Paper 2004–1269.</em></p>
+</section>
+<section id="sensor-placement-for-closed-loop-flow-control-of-a-d-shaped-cylinder-wake" class="level3 publication">
+<h3 class="anchored" data-anchor-id="sensor-placement-for-closed-loop-flow-control-of-a-d-shaped-cylinder-wake">Sensor placement for closed-loop flow control of a D-shaped cylinder wake</h3>
+<p>K. Cohen, S. Siegel, D. M. Luchtenburg, T. McLaughlin, and A. Seifert</p>
+<p><em>AIAA Paper 2004–2523.</em></p>
+</section>
+<section id="feasibility-study-of-a-hot-plume-test-facility" class="level3 publication">
+<h3 class="anchored" data-anchor-id="feasibility-study-of-a-hot-plume-test-facility">Feasibility study of a hot plume test facility</h3>
+<p>F. Bos, O. Bruijn, N. P. Hinsberg, T. J. J. Lombaerts, P. Lucas, D. M. Luchtenburg, J. A. S. Witteveen, and K. G. Zee</p>
+<p><em>Proceedings of the Fourth Symposium on Aerothermodynamics for Space Vehicles: co-sponsored by European Space Agency. 2001, pp.&nbsp;639–644.</em></p>
+</section>
+</section>
+<section id="book-chapters" class="level2">
+<h2 class="anchored" data-anchor-id="book-chapters">Book chapters</h2>
+<section id="turbulence-control-based-on-reduced-order-models-and-nonlinear-control-design" class="level3 publication">
+<h3 class="anchored" data-anchor-id="turbulence-control-based-on-reduced-order-models-and-nonlinear-control-design"><a href="https://doi.org/10.1007/978-3-642-11735-0_22">Turbulence control based on reduced-order models and nonlinear control design</a></h3>
+<p>D. M. Luchtenburg, K. Aleksić, M. Schlegel, B. R. Noack, R. King, G. Tadmor, B. Günther, and F. Thiele</p>
+<p><em>Active Flow Control II, vol.&nbsp;108, pp.&nbsp;341–356, 2010.</em></p>
+</section>
+<section id="numerical-simulation-and-analysis-of-the-flow-around-a-wall-mounted-finite-cylinder" class="level3 publication">
+<h3 class="anchored" data-anchor-id="numerical-simulation-and-analysis-of-the-flow-around-a-wall-mounted-finite-cylinder"><a href="https://doi.org/10.1007/978-3-642-01106-1_21">Numerical simulation and analysis of the flow around a wall-mounted finite cylinder</a></h3>
+<p>O. Frederich, J. Scouten, D. M. Luchtenburg, and F. Thiele</p>
+<p><em>Imaging Measurement Methods for Flow Analysis, vol.&nbsp;106, pp.&nbsp;207–216, 2009.</em></p>
+</section>
+<section id="reduced-order-modelling-of-turbulent-jets-for-noise-control" class="level3 publication">
+<h3 class="anchored" data-anchor-id="reduced-order-modelling-of-turbulent-jets-for-noise-control"><a href="https://doi.org/10.1007/978-3-540-89956-3_1">Reduced-order modelling of turbulent jets for noise control</a></h3>
+<p>M. Schlegel, B. R. Noack, P. Comte, D. Kolomenskiy, K. Schneider, M. Farge, D. M. Luchtenburg, J. E. Scouten, and G. Tadmor</p>
+<p><em>Numerical Simulation of Turbulent Flows and Noise Generation, vol.&nbsp;104, pp.&nbsp;3–27, 2009.</em></p>
+</section>
+<section id="analysis-of-the-unsteady-flow-around-a-wall-mounted-finite-cylinder-at-re200000" class="level3 publication">
+<h3 class="anchored" data-anchor-id="analysis-of-the-unsteady-flow-around-a-wall-mounted-finite-cylinder-at-re200000">Analysis of the unsteady flow around a wall-mounted finite cylinder at Re=200,000</h3>
+<p>O. Frederich, D. M. Luchtenburg, E. Wassen, and F. Thiele</p>
+<p><em>Advances in Turbulence XI. Ed. by J. M. L. M. Palma and A. S. Lopes. Vol. 117. Proceedings in Physics. Springer, 2007, pp.&nbsp;85–87.</em></p>
+</section>
+</section>
+<section id="book-reviews" class="level2">
+<h2 class="anchored" data-anchor-id="book-reviews">Book reviews</h2>
+<section id="data-driven-science-and-engineering-machine-learning-dynamical-systems-and-control-brunton-and-kutz-2020-bookshelf" class="level3 publication">
+<h3 class="anchored" data-anchor-id="data-driven-science-and-engineering-machine-learning-dynamical-systems-and-control-brunton-and-kutz-2020-bookshelf"><a href="https://doi.org/10.1109/MCS.2021.3076544">Data-driven science and engineering: Machine learning, dynamical systems, and control (Brunton and Kutz, 2020) [Bookshelf]</a></h3>
+<p>D. M. Luchtenburg</p>
+<p><em>IEEE Control Systems Magazine, vol.&nbsp;41, no. 4, pp.&nbsp;95–102, 2021.</em></p>
+</section>
+</section>
+<section id="conference-abstracts" class="level2">
+<h2 class="anchored" data-anchor-id="conference-abstracts">Conference abstracts</h2>
+<section id="implementation-of-a-microphone-array-for-improved-noise-path-estimation-in-a-feed-forward-active-noise-control-system" class="level3 publication">
+<h3 class="anchored" data-anchor-id="implementation-of-a-microphone-array-for-improved-noise-path-estimation-in-a-feed-forward-active-noise-control-system"><a href="https://doi.org/10.1121/1.5147188">Implementation of a microphone array for improved noise path estimation in a feed-forward active noise control system</a></h3>
+<p>H. Y. Park, D. Abes, M. S. Lawless, and D. M. Luchtenburg</p>
+<p><em>The Journal of the Acoustical Society of America, vol.&nbsp;148, no. 4, p.&nbsp;2588, 2020.</em></p>
+</section>
+<section id="stirring-inertia-in-time-dependent-low-reynolds-number-flows" class="level3 publication">
+<h3 class="anchored" data-anchor-id="stirring-inertia-in-time-dependent-low-reynolds-number-flows">Stirring inertia in time-dependent low Reynolds number flows</h3>
+<p>P. Yecko, D. M. Luchtenburg, E. Forgoston, and L. Billings</p>
+<p><em>Bulletin of the American Physical Society, 2017.</em></p>
+</section>
+</section>
+<section id="dissertation" class="level2">
+<h2 class="anchored" data-anchor-id="dissertation">Dissertation</h2>
+<section id="low-dimensional-modelling-and-control-of-separated-shear-flows" class="level3 publication">
+<h3 class="anchored" data-anchor-id="low-dimensional-modelling-and-control-of-separated-shear-flows">Low-dimensional modelling and control of separated shear flows</h3>
+<p>D. M. Luchtenburg</p>
+<p><em>Ph.D.&nbsp;dissertation, Technische Universität Berlin, 2010.</em></p>
+</section>
+</section>
+</div>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1643086800000" data-listing-file-modified-sort="1690955280000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./publications/luchtenburg2021asme/index.html"> <img src="./publications/luchtenburg2021asme/sleigh.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./publications/luchtenburg2021asme/index.html">
-<h3 class="no-anchor listing-title">
-A Projection-Based Derivation of the Equations of Motion for the Moving Frame Method for Multi-Body Dynamics
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>This paper presents a projection-based approach for deriving the equations of motion of connected rigid bodies based on the principle of least-constraint by Gauss.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./publications/luchtenburg2021asme/index.html">
-<div class="listing-date">
-Jan 25, 2022
-</div>
-<div class="listing-author">
-Dirk M. Luchtenburg, Mili Shah, Thomas J. Impelluso, Thorstein Ravneberg Rykkje
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1579582800000" data-listing-file-modified-sort="1690955280000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./publications/saure2019asme/index.html"> <img src="./publications/saure2019asme/rov.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./publications/saure2019asme/index.html">
-<h3 class="no-anchor listing-title">
-Modelling the Motion of a 2-Arm ROV
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>This paper researches the motion of an ROV induced by the motion of the robotic manipulators, motor torques, and added mass of fluid.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./publications/saure2019asme/index.html">
-<div class="listing-date">
-Jan 21, 2020
-</div>
-<div class="listing-author">
-Marius R. Saure, Sondre H. Iversen, Andreas B. Snekkevik, Rose Gebhardt, Zhiyang Chen, Christopher Mignano, Dirk Luchtenburg, Thomas J. Impelluso
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1574917200000" data-listing-file-modified-sort="1690955280000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./publications/jin2019ieee/index.html"> <img src="./publications/jin2019ieee/car.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./publications/jin2019ieee/index.html">
-<h3 class="no-anchor listing-title">
-A Multisensor Data Fusion Approach for Simultaneous Localization and Mapping
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>This paper presents a cost-friendly vehicle research platform and a robust implementation of SLAM.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./publications/jin2019ieee/index.html">
-<div class="listing-date">
-Nov 28, 2019
-</div>
-<div class="listing-author">
-Zhekai Jin; Yifei Shao; Minjoon So; Carl Sable; Neveen Shlayan; Dirk Martin Luchtenburg
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1553486400000" data-listing-file-modified-sort="1690955280000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./publications/shekhtman2019asme/index.html"> <img src="./publications/shekhtman2019asme/Shekhtman_Image.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./publications/shekhtman2019asme/index.html">
-<h3 class="no-anchor listing-title">
-Seven Degrees-of-Freedom Model for the Roll Stabilization of Unstable Ships
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>This paper shows how a ship with unstable roll can be stabilized with a pendulum.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./publications/shekhtman2019asme/index.html">
-<div class="listing-date">
-Mar 25, 2019
-</div>
-<div class="listing-author">
-David Shekhtman, Dirk M. Luchtenburg
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1500868800000" data-listing-file-modified-sort="1690955280000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./publications/song2017ieee/index.html"> <img src="./publications/song2017ieee/song_ieee.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./publications/song2017ieee/index.html">
-<h3 class="no-anchor listing-title">
-Using compliant leg design for impact attenuation of airdrop landings of quadruped robots
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>This paper shows how compliant legs can be used attentuate airdrop landings of quadruped robots.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./publications/song2017ieee/index.html">
-<div class="listing-date">
-Jul 24, 2017
-</div>
-<div class="listing-author">
-Yeeho Song; Dirk Luchtenburg
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -377,206 +464,361 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
       return codeEl.innerText;
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/realdirk\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
       });
     }
-  }
-});
-</script>
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright 2023, Dirk M. Luchtenburg</div>
+    <div class="nav-footer-center">
+<p>© 2026 Dirk M. Luchtenburg</p>
+</div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

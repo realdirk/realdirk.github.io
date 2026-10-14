@@ -1,11 +1,40 @@
 ---
-title: "teaching"
-listing:
-  contents: teaching/**/*.qmd
-  type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
-page-layout: full
+title: "Teaching"
 title-block-banner: false
+page-layout: full
+toc: false
 ---
+
+::: {.teaching-container}
+
+## Teaching approach
+
+My teaching and research inform one another. I bring ideas from dynamics, modeling, and control into the classroom, while the work of explaining fundamental concepts clearly often sharpens my own thinking. I view engineering education as an apprenticeship in engineering reasoning: students learn to formulate problems, choose and justify models, analyze their behavior, and assess what the results mean. Analytical work and computation support this process, but neither replaces physical understanding or engineering judgment.
+
+## Recent courses
+
+::: {.teaching-course}
+### ME 200 — Engineering dynamics
+
+An introduction to the mechanics of moving systems, organized around reference frames, geometric reasoning, and the systematic formulation of equations of motion. Analytical developments are supported by Python-based computation and simulation, with an emphasis on methods that extend naturally to three-dimensional problems in robotics, flight dynamics, and control.
+:::
+
+::: {.teaching-course}
+### ME 351 — Feedback control systems
+
+An introduction to modeling, analysis, and design of feedback control systems. Students connect system dynamics to stability, transient and frequency response, and classical control design, using computation to test predictions and evaluate design choices.
+:::
+
+::: {.teaching-course}
+### ME 393 — Senior design
+
+A project-based course in which students address open-ended engineering problems. Emphasis is placed on defining a defensible problem, evaluating design alternatives, supporting decisions with analysis and evidence, and communicating results clearly.
+:::
+
+## Teaching materials
+
+**Engineering Dynamics: A Geometric and Computational Companion** *(manuscript in development)*
+
+Developed alongside ME 200, this companion integrates geometric and frame-based mechanics with computational examples. Its purpose is to help students move from standard planar problems to the formulation and analysis of general three-dimensional motion.
+
+:::

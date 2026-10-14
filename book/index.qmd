@@ -1,4 +1,0 @@
-
-# ME451 lecture notes {.unnumbered}
-
-This is a Quarto book, to learn more visit <https://quarto.org/docs/books>.

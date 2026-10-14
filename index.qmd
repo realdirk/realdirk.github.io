@@ -1,11 +1,36 @@
 ---
-title: "Dynamics and Control Lab"
-author: ""
-about:
-  template: jolla
+title: "Home"
+page-layout: full
 ---
 
-The Dynamics and Control Lab at [The Cooper Union](https://cooper.edu) is a place where undergraduate students develop model-based controllers for smart vehicles, such as quadcopters and ground robots.
+:::: {.home-container}
 
-{{< video https://youtu.be/eYEBc6EHLo8 >}}
+:::: {.home-hero}
 
+::: {.home-photo}
+
+![](images/portrait.jpg){.home-portrait}
+
+:::
+
+::: {.home-intro}
+
+# Dirk M. Luchtenburg
+
+**Associate Professor of Mechanical Engineering**  
+[The Cooper Union](https://cooper.edu)
+
+*Nonlinear dynamics · Modeling · Control*
+
+My research focuses on the modeling, analysis, and control of dynamical systems, with contributions spanning nonlinear dynamics, reduced-order modeling, fluid mechanics, and autonomous systems. My work combines mathematical analysis, computation, and physical experimentation.
+
+[Research](research.qmd) ·
+[Publications](publications.qmd) ·
+[Teaching](teaching.qmd) ·
+[Curriculum vitae](files/CV_Luchtenburg_2026.pdf)
+
+:::
+
+::::
+
+::::

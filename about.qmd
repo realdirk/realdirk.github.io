@@ -1,0 +1,12 @@
+---
+title: "About"
+toc: false
+---
+
+Dirk M. Luchtenburg is Associate Professor of Mechanical Engineering at The Cooper Union. His research interests include nonlinear dynamics, mathematical modeling, and feedback control, with applications spanning fluid mechanics and autonomous systems.
+
+He received his master's degree in aerospace engineering from Delft University of Technology and his PhD in fluid mechanics from Technische Universität Berlin. Before joining The Cooper Union, he held research and teaching appointments at Princeton University.
+
+His work brings together mathematical analysis, computational methods, and physical experimentation to understand and control dynamical systems. This perspective also informs his teaching, where mathematical foundations are connected to engineering applications.
+
+For additional information, see his [Curriculum vitae](files/CV_Luchtenburg_2026.pdf).
