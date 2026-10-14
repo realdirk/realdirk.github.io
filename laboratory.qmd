@@ -17,6 +17,8 @@ The laboratory operates an indoor quadrotor flight arena with a **six-camera Vic
 
 ## Selected projects
 
+The following projects illustrate laboratory research and faculty-advised student engineering activities.
+
 ### Coordinated quadrotor flight
 
 ::: {.laboratory-project}
@@ -62,6 +64,25 @@ The project illustrates how geometric descriptions of motion inform the design a
 :::
 ::: {.laboratory-project-image}
 ![CAD rendering of a gyroscopically actuated vehicle.](laboratory_assets/gyro_car_cad.png)
+:::
+:::
+
+### AIAA Design/Build/Fly competition
+
+::: {.laboratory-project}
+::: {.laboratory-project-text}
+In 2024, I served as faculty advisor to The Cooper Union student team participating in the American Institute of Aeronautics and Astronautics (AIAA) Design/Build/Fly competition in Wichita, Kansas.
+
+The team designed, manufactured, and flight-tested a radio-controlled aircraft for an urban air mobility mission. The competition called for delivery, medical transport, and urban taxi configurations, requiring the team to integrate aerodynamic design, structural analysis, fabrication, and flight testing.
+
+The aircraft successfully flew at the competition, although stable landing remained a challenge. The project provided students with experience in iterative engineering development and testing under real-world constraints.
+
+[Read The Cooper Union news article](https://cooper.edu/engineering/news/cooper-students-compete-2024-aiaa-designbuildfly-competition)
+
+*2023–2024 AIAA Design/Build/Fly student team, The Cooper Union.*
+:::
+::: {.laboratory-project-image}
+![The Cooper Union AIAA Design/Build/Fly team with its competition aircraft.](laboratory_assets/aiaa_team.jpg)
 :::
 :::
 
