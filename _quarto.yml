@@ -13,18 +13,18 @@ website:
     logo: /images/icon.png
     background: light
     left:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: teaching.qmd
-        text: Teaching
-      - href: laboratory.qmd
-        text: Laboratory
-      - href: about.qmd
-        text: About
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Laboratory"
+        href: laboratory.qmd
+      - text: "About"
+        href: about.qmd
 
 format:
   html:

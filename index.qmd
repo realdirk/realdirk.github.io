@@ -24,9 +24,10 @@ page-layout: full
 
 My research focuses on the modeling, analysis, and control of dynamical systems, with contributions spanning nonlinear dynamics, reduced-order modeling, fluid mechanics, and autonomous systems. My work combines mathematical analysis, computation, and physical experimentation.
 
-[Research](research.qmd) ·
-[Publications](publications.qmd) ·
-[Teaching](teaching.qmd) ·
+[Research](research.qmd)
+[Publications](publications.qmd)
+[Teaching](teaching.qmd)
+[Laboratory](laboratory.qmd)
 [Curriculum vitae](files/CV_Luchtenburg_2026.pdf)
 
 :::
